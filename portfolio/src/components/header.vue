@@ -1,7 +1,16 @@
 <template>
-  <div id="">
+  <header>
+    <nav>
+      <h2><img src="" alt=""></h2>
+      <ul>
+        <li>プロフィール</li>
+        <li>作品</li>
+        <li>トレーニング</li>
+        <li>お問い合わせ</li>
+      </ul>
+    </nav>
     
-  </div>
+  </header>
 </template>
 
 <script>
@@ -16,12 +25,5 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
