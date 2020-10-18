@@ -1,42 +1,87 @@
 <template>
   <div id="app">
-    <Header></Header>
-    <Top></Top>
-    <Profile></Profile>
-    <Works></Works>
-    <Training></Training>
-    <Contact></Contact>
-    <Footer></Footer>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Header from './components/header.vue'
-import Top from './components/top.vue'
-import Profile from './components/profile.vue'
-import Works from './components/works.vue'
-import Training from './components/training.vue'
-import Contact from './components/contact.vue'
-import Footer from './components/footer.vue'
+// import Home from './components/home.vue'
+// import test from './components/profileDetails/workDetails/test.vue'
 
 export default {
+  // components: {
+  //   Home,
+  //   Text,
+    
+  // },
   name: 'App',
-  components: {
-    Header,
-    Top,
-    Profile,
-    Works,
-    Training,
-    Contact,
-    Footer
+  mounted(){
+    const nav = document.getElementsByClassName("nav");
+    const conteiner = document.getElementsByClassName("conteiner");
+    let arrow = document.getElementsByClassName("works__navbox__inner__nav__arrow")
+    arrow = Array.from(arrow);
+    const year = document.getElementsByClassName("works__navbox__inner__nav__text")
+     arrow[0].style.transform="translateY(0)";
+    for(let i=0;i<=nav.length-1;i++){
+       nav[i].onclick=()=>{
+          // スクロール
+          conteiner[i].scrollIntoView({behavior: "smooth"});
+      }
+    }
+    for(let i=0;i<=year.length-1;i++){
+      year[i].onclick=()=>{
+        arrow.forEach(element => {
+          element.style.transform="translateY(-200%)";
+        });
+        arrow[i].style.transform="translateY(0)";
+      }
+    }
   }
 }
 </script>
 
 <style lang="scss">
-@import "./css/ress";
+@import "./assets/css/ress";
 #app {
+   font-size: 62.5%;
   font-family: ヒラギノ明朝 ProN, sans-serif;
- 
 }
+.titlebox{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    .title{
+      color: #707070;
+      font-size: 32px;
+      position: relative;
+      &::before{
+        content: "";
+        display: block;
+        width: 28%;
+        height: 1px;
+        background-color: #707070;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+      }
+      &::after{
+        content: "";
+        display: block;
+        width: 28%;
+        height: 1px;
+        background-color: #707070;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+      }
+    }
+    .subtitle{
+      font-size: 26px;
+      color: #A0A0A0;
+    }
+  }
 </style>
