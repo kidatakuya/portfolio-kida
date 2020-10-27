@@ -2,6 +2,7 @@
   <section id="" class="works conteiner">
     <div class="works__titlebox titlebox">
        <h2 class="works__titlebox__title title">作品</h2>
+       <p class="works__titlebox__subTitle subtitle">〜 是非、見てください 〜</p>
     </div>
     <nav class="works__navbox">
       <ul class="works__navbox__inner">
@@ -14,9 +15,6 @@
     <div class="works__warp">
       <transition-group tag="div" name="work">
         <components v-for="work in works" :key="work" :is="work"></components>
-        <!-- <WorkFirst v-if="first" :key="Switch"></WorkFirst>
-        <WorkSecond v-if="second" :key="Switch"></WorkSecond>
-        <WorkThird v-if="third" :key="Switch"></WorkThird> -->
       </transition-group>
     </div>
   </section>
@@ -66,7 +64,7 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .works{
    padding: 80px 0 0 0;
   &__navbox{

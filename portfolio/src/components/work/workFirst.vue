@@ -1,16 +1,30 @@
 <template>
   <div id="">
     <h2>1年</h2>
-    <Masureita></Masureita>
+    <MasureitaWarp></MasureitaWarp>
+    <EcoloopWarp></EcoloopWarp>
+    <MomoryWarp></MomoryWarp>
+    <NomimonWarp></NomimonWarp>
+    <PuzzleWarp></PuzzleWarp>
   </div>
 </template>
 
 <script>
-import Masureita from './workFirst/masureita.vue'
+import MasureitaWarp from './worksFirst/MasureitaWarp.vue'
+import EcoloopWarp from './worksFirst/EcoloopWarp.vue'
+import MomoryWarp from './worksFirst/MomoryWarp.vue'
+import NomimonWarp from './worksFirst/NomimonWarp.vue'
+import PuzzleWarp from './worksFirst/PuzzleWarp.vue'
+
+
 export default {
   
   components: {
-    Masureita
+    MasureitaWarp,
+    EcoloopWarp,
+    MomoryWarp,
+    NomimonWarp,
+    PuzzleWarp
   }
 }
 </script>

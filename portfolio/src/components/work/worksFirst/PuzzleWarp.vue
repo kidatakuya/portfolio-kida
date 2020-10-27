@@ -1,6 +1,6 @@
 <template>
   <div id="" class="work">
-    <h3 class="work__title">~ 喫茶マスリータ ~</h3>
+    <h3 class="work__title">~ puzzle ~</h3>
     <div class="work__content">
         <div class="work__content__img">
             <img src="" alt="">
@@ -9,7 +9,7 @@
             <h4  class="work__content__textWarp__subTitle">筋肉でなんとかカフェ</h4>
             <p  class="work__content__textWarp__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキス</p>
             <p  class="work__content__textWarp__category"><label for="">個人制作</label><label for="">個人制作</label><label for="">個人制作</label></p>
-            <button class="work__content__textWarp__link">サイト詳細</button>
+            <router-link to="/puzzle" class="work__content__textWarp__link">サイト詳細</router-link>
         </div>
     </div>
   </div>
@@ -18,9 +18,7 @@
 <script>
 export default {
   
-  components: {
-   
-  }
+ 
 }
 </script>
 
@@ -59,6 +57,7 @@ export default {
           color: #A0A0A0;
            display: flex;
             align-items: center;
+            margin-bottom: 48px;
           label{
             margin-right: 8px;
             display: flex;
@@ -78,7 +77,7 @@ export default {
           color: #fff;
           background-color: #000;
           padding: 12px 56px;
-          margin-top: 40px;
+          text-decoration: none;
         }
       }
     }

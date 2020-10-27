@@ -18,11 +18,11 @@ export default {
 <style lang="scss">
   .footer{
     width: 100vw;
-    padding: 2.4em 0;
+    padding: 16px 0;
     background-color: #EFEFEF;
     &__text{
       color: #BEBEBE;
-      font-size: 1.6em;
+      font-size: 14px;
       text-align: center;
     }
   }
