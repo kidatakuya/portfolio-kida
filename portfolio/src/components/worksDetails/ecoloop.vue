@@ -134,7 +134,6 @@ export default {
                   width: 40%;
                   img{
                       width: 100%;
-                      margin-left: auto;
                   }
                   
               }

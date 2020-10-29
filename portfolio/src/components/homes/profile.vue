@@ -30,7 +30,7 @@
         </div>
       </div>
       <div class="profile__textbox__photo">
-        <img src="" alt="">
+        <img src="../../assets/img/KidaImg.jpeg" alt="">
       </div>
     </div>
     
@@ -133,9 +133,13 @@ export default {
         }//&__careerbox
       }//&__innerwarp
       &__photo{
-        width: 400px;
-        height: 304px;
+        width: 440px;
+        height: 330px;
         background-color: #E8E8E8;
+        img{
+          width: 100%;
+          transform: translate(-30px,30px);
+        }
       }// &__photo
     }//&__textbox
     &__details{
