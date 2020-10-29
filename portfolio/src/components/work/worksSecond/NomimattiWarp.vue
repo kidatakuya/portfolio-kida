@@ -1,15 +1,15 @@
 <template>
   <div id="" class="work">
-    <h3 class="work__title">~ puzzle ~</h3>
+    <h3 class="work__title">~ Nomimatti ~</h3>
     <div class="work__content">
         <div class="work__content__img">
-            <img src="" alt="">
+            <img src="../../../assets/img/nomimatti.png" alt="nomimatti-img">
         </div>
         <div class="work__content__textWarp">
             <h4  class="work__content__textWarp__subTitle">筋肉でなんとかカフェ</h4>
             <p  class="work__content__textWarp__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキス</p>
             <p  class="work__content__textWarp__category"><label for="">個人制作</label><label for="">個人制作</label><label for="">個人制作</label></p>
-            <router-link to="/puzzle" class="work__content__textWarp__link">サイト詳細</router-link>
+            <router-link to="/nomimatti" class="work__content__textWarp__link">サイト詳細</router-link>
         </div>
     </div>
   </div>
@@ -18,7 +18,7 @@
 <script>
 export default {
   
- 
+
 }
 </script>
 
@@ -36,9 +36,9 @@ export default {
       display: flex;
       justify-content: space-around;
       &__img{
-        width: 319px;
-        height: 252px;
-        background-color: grey;
+        img{
+          width: 320px;
+        }
       }
       &__textWarp{
         width: 50%;

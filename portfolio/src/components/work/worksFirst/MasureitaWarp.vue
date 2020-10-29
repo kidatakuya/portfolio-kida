@@ -3,11 +3,14 @@
     <h3 class="work__title">~ 喫茶マスリータ ~</h3>
     <div class="work__content">
         <div class="work__content__img">
-            <img src="" alt="">
+            <img src="../../../assets/img/Masureita.png" alt="マスリータイメージ">
         </div>
         <div class="work__content__textWarp">
-            <h4  class="work__content__textWarp__subTitle">筋肉でなんとかカフェ</h4>
-            <p  class="work__content__textWarp__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキス</p>
+            <h4  class="work__content__textWarp__subTitle">筋肉 × カフェ</h4>
+            <p  class="work__content__textWarp__text">
+              この店は新しい形、筋肉のためのカフェです。<br>
+              身体作りをしている方々に、より良いサービス、より良い空間、より良い料理提供を行なっています。高カロリーから低カロリー、高タンパクのメニューをたくさん用意しております。皆様のご来店を心よりお待ちしております。
+            </p>
             <p  class="work__content__textWarp__category"><label for="">個人制作</label><label for="">個人制作</label><label for="">個人制作</label></p>
             <router-link to="/masureita" class="work__content__textWarp__link">サイト詳細</router-link>
         </div>
@@ -36,21 +39,24 @@ export default {
       display: flex;
       justify-content: space-around;
       &__img{
-        width: 319px;
-        height: 252px;
-        background-color: grey;
+        // width: 319px;
+        // height: 252px;
+        // background-color: grey;
+        img{
+          width: 320px;
+        }
       }
       &__textWarp{
         width: 50%;
         &__subTitle{
           color: #707070;
           font-size: 24px;
-          margin-bottom: 24px;
+          margin-bottom: 12px;
         }
         &__text{
           font-size: 16px;
           color: #A0A0A0;
-          margin-bottom: 16px;
+          margin-bottom: 20px;
         }
         &__category{
           font-size: 14px;

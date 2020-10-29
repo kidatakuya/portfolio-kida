@@ -4,7 +4,7 @@
     <section class="ecoloop__content">
         <div class="ecoloop__content__top">
             <div class="ecoloop__content__top__titlebox titlebox">
-                <h1 class="ecoloop__content__top__titlebox_title title"><span>ECOLOOP</span></h1>
+                <h1 class="ecoloop__content__top__titlebox_title title"><span>puzzle</span></h1>
             </div>
             <div class="ecoloop__content__top__production">
                 <p class="ecoloop__content__top__production__text"><label for="">制作時期</label>2019年10月〜</p>

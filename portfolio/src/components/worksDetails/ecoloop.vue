@@ -39,11 +39,14 @@
                 <section class="ecoloop__content__backWarp__planning__category problembox">
                     <h3><span>現状問題</span></h3>
                     <p>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
+                        今、世界中でゴミの量の多さが問題視されている。それは日本も例外ではありません。日本でも生ゴミの排出量が大きな問題になっている。そのため、日本では生ゴミによるバイオマス、バイオガス発電のプロジェクトに取り組む市や街が存在する。<br>
+                        ECO LOOPでは、上記のプロジェクトに取り組む市や街をサポートする、街が一体となってエコ活動をしているという意識を持てるようなにするサービスです。<br>
+                        このプロジェクトはSDGs（2016年から2030年までの国際目標）の7（エネルギーをみんなにそしてクリーンに）と、11（住み続けられるまちづくりを）に該当している。
                     </p>
+                    <div>
+                        <p></p>
+                        <div></div>
+                    </div>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category solutionbox">
                     <h3><span>解決案</span></h3>
@@ -86,20 +89,17 @@
                     <p>サイトを見る</p>
                 </a>
             </li>
-        </ul>
-            <a href=""></a>
-            <a href=""></a>
-        
+        </ul>   
     </section>
-<Footer></Footer>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
-import DetailsHeader from"./detailsHeader"
-import Footer from"./../homes/footer"
+import DetailsHeader from "./detailsHeader"
+import Footer from "./../homes/footer"
+
 export default {
-  
   components: {
    DetailsHeader,
    Footer
