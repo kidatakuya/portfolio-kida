@@ -15,8 +15,7 @@
                 <p class="ecoloop__content__top__production__text"><label for="">使用ソフト</label>XD、Photoshop、Illustrator</p>
             </div>
             <div class="ecoloop__content__top__photo">
-                <div></div>
-                <!-- <img src="" alt=""> -->
+                <img src="../../assets/img/Ecoloop.png" alt="">
             </div>
         </div>
         <section class="ecoloop__content__backWarp">
@@ -132,11 +131,9 @@ export default {
                   }
               }
               &__photo{
-                  width: 50%;
-                  div{
-                      width: 412px;
-                      height: 326px;
-                      background-color: red;
+                  width: 40%;
+                  img{
+                      width: 100%;
                       margin-left: auto;
                   }
                   

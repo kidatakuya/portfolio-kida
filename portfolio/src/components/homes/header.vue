@@ -1,7 +1,7 @@
 <template>
   <header id="header" class="header">
     <nav class="header__warp">
-      <h2 class="header__warp__logo nav"><img src="" alt=""></h2>
+      <h2 class="header__warp__logo nav"></h2>
       <ul class="header__warp__navbox">
         <li class="header__warp__navbox__nav nav">プロフィール</li>
         <li class="header__warp__navbox__nav nav">作品</li>
@@ -51,7 +51,9 @@ export default {
      &__logo{
        width: 7rem;
        height: 100%;
-       background-color: #707070;
+       background-image: url(../../assets/img/logo.svg);
+       background-position: center;
+       background-size: contain;
      }
      &__navbox{
        display: flex;
