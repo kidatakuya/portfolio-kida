@@ -3,7 +3,7 @@
     <h3 class="work__title">~ momory ~</h3>
     <div class="work__content">
         <div class="work__content__img">
-            <img src="" alt="">
+            <img src="../../../assets/img/momory.png" alt="momoryImg">
         </div>
         <div class="work__content__textWarp">
             <h4  class="work__content__textWarp__subTitle">同窓会をもっと楽に</h4>
@@ -40,9 +40,9 @@ export default {
       display: flex;
       justify-content: space-around;
       &__img{
-        width: 319px;
-        height: 252px;
-        background-color: grey;
+        img{
+          width: 320px;
+        }
       }
       &__textWarp{
         width: 50%;

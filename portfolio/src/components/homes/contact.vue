@@ -6,7 +6,7 @@
    
     <div class="contact__warp">
       <p class="contact__warp__text">気軽にご連絡ください</p>
-      <p class="contact__warp__address">Kida.takuya.1234@gmail.com</p>
+      <p class="contact__warp__address">kida.takuya.1234@gmail.com</p>
       <p class="contact__warp__text">GutHubアカウント</p>
       <p class="contact__warp__address">https://github.com/kidatakuya</p>
     </div>

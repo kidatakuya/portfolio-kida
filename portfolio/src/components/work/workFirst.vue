@@ -1,6 +1,5 @@
 <template>
   <div id="">
-    <h2>1年</h2>
     <MasureitaWarp></MasureitaWarp>
     <EcoloopWarp></EcoloopWarp>
     <MomoryWarp></MomoryWarp>

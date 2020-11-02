@@ -6,10 +6,12 @@
             <img src="../../../assets/img/puzzle.png" alt="">
         </div>
         <div class="work__content__textWarp">
-            <h4  class="work__content__textWarp__subTitle">筋肉でなんとかカフェ</h4>
-            <p  class="work__content__textWarp__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキス</p>
+            <h4  class="work__content__textWarp__subTitle">先輩たちを交流を</h4>
+            <p  class="work__content__textWarp__text">
+              学校でわからないことがあっても、先生以外聞く人がいない。資格を取ろうと考えた時、どう勉強したら良いかわからない。そんな人が質問を投稿し、先輩とあって答えてもらう。先輩後輩との交流を増やし質問答えてもらうマッチング方の問題解決サービスです。
+            </p>
             <p  class="work__content__textWarp__category"><label for="">個人制作</label><label for="">個人制作</label><label for="">個人制作</label></p>
-            <router-link to="/puzzle" class="work__content__textWarp__link">サイト詳細</router-link>
+            <router-link to="/puzzle" class="work__content__textWarp__link link">サイト詳細</router-link>
         </div>
     </div>
   </div>

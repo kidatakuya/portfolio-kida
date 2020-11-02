@@ -6,8 +6,10 @@
             <img src="../../../assets/img/nomimatti.png" alt="nomimatti-img">
         </div>
         <div class="work__content__textWarp">
-            <h4  class="work__content__textWarp__subTitle">筋肉でなんとかカフェ</h4>
-            <p  class="work__content__textWarp__text">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキス</p>
+            <h4  class="work__content__textWarp__subTitle">刺し飲み相手を探しましょう。</h4>
+            <p  class="work__content__textWarp__text">
+              このサービスは飲みに行くのが好きで、飲みに行きたいけど予定が合わない。上京したばかりで飲みに行く友達が近くにいない。そんな人同士を引き合わせるマッチングアプリです。
+            </p>
             <p  class="work__content__textWarp__category"><label for="">個人制作</label><label for="">個人制作</label><label for="">個人制作</label></p>
             <router-link to="/nomimatti" class="work__content__textWarp__link">サイト詳細</router-link>
         </div>

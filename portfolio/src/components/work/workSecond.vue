@@ -1,6 +1,5 @@
 <template>
   <div id="">
-    <h2>2年</h2>
     <NomimattiWarp></NomimattiWarp>
   </div>
 </template>

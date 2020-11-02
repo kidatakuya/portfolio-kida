@@ -7,12 +7,12 @@
                 <h1 class="ecoloop__content__top__titlebox_title title"><span>喫茶マスリータ</span></h1>
             </div>
             <div class="ecoloop__content__top__production">
-                <p class="ecoloop__content__top__production__text"><label for="">制作時期</label>2019年10月〜</p>
+                <p class="ecoloop__content__top__production__text"><label for="">制作時期</label>2019年4月〜</p>
                 <p class="ecoloop__content__top__production__text"><label for="">制作時間</label>40時間</p>
                 <p class="ecoloop__content__top__production__text"><label for="">制作</label>個人制作</p>
                 <p class="ecoloop__content__top__production__text"><label for="">担当箇所</label>すべて</p>
-                <p class="ecoloop__content__top__production__text"><label for="">使用言語</label>HTML、CSS、JavaScript、SASS</p>
-                <p class="ecoloop__content__top__production__text"><label for="">使用ソフト</label>XD、Photoshop、Illustrator</p>
+                <p class="ecoloop__content__top__production__text"><label for="">使用言語</label>HTML、CSS</p>
+                <p class="ecoloop__content__top__production__text"><label for="">使用ソフト</label>Photoshop、Illustrator</p>
             </div>
             <div class="ecoloop__content__top__photo">
                 <img src="../../assets/img/Masureita.png" alt="">
@@ -23,50 +23,26 @@
             <div class="ecoloop__content__backWarp__concepttbox">
                 <div class="ecoloop__content__backWarp__concepttbox__theme">
                     <label for="">「テーマ」</label>
-                    <p>「小説」</p>
+                    <p>「カフェ×筋肉」</p>
                 </div>
                 <div class="ecoloop__content__backWarp__concepttbox__theme">
                     <label for="">「コンセプト」</label>
-                    <p>「文字で読ませるデザイン」</p>
+                    <p>「成長の手助け」</p>
                 </div>
                 <div class="ecoloop__content__backWarp__concepttbox__theme">
                     <label for="">「キーワード」</label>
-                    <p>「文字」「シンプル」「わかりやすく」</p>
+                    <p>「トレーニング後」「回復」「タンパク質」</p>
                 </div>
             </div>
             <section class="ecoloop__content__backWarp__planning">
-                <section class="ecoloop__content__backWarp__planning__category problembox">
-                    <h3><span>現状問題</span></h3>
-                    <p>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
-                    </p>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category solutionbox">
-                    <h3><span>解決案</span></h3>
-                    <p>sdasdasdasdasd</p>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category purposebox">
-                    <h3><span>目的</span></h3>
-                    <p>asdasdasd</p>
-                </section>
                 <section class="ecoloop__content__backWarp__planning__category overviewbox">
                     <h3><span>概要</span></h3>
-                    <p>asdasdasd</p>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category meritbox">
-                    <h3><span>メリット</span></h3>
-                    <p>asdasda</p>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category profitbox">
-                    <h3><span>利益</span></h3>
-                    <p>asdasdasdas</p>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category leadbox">
-                    <h3><span>導線</span></h3>
-                    <p>asasdasdasdasd</p>
+                    <p>
+                        この作品は、学校入学後の最初の作品で、「カフェ×何か」をテーマに制作したWebサイトです。<br>
+                        喫茶マスリータ は、普通の喫茶店と違い筋肉作りをしている人、ダイエットをしている人の手助けになるような低脂肪高タンパクの食事をはじめ、プロテインや、基礎代謝を上げてくれるメニューまで揃っています。
+                        サービスはトレーニングで書いた汗を流すための温泉や、ボディービルやフィジークの大会情報などを教えてくれたりします。<br>
+                        内装はトレーニング後にぴったりの、心身ともに落ち着けるような落ち着いた空間になっています。
+                    </p>
                 </section>
             </section>
         </section>
@@ -77,12 +53,6 @@
                 <a>
                     <label for="">Web</label>
                     <p>サイトをみる</p>
-                </a>
-            </li>
-            <li class="ecoloop__access__navbox__nav">
-                <a href="">
-                    <label for="">Mobile</label>
-                    <p>サイトを見る</p>
                 </a>
             </li>
         </ul>
@@ -184,6 +154,9 @@ export default {
             }
             &__planning{
                 margin-top: 124px;
+                &:last-child{
+                    margin-bottom: 120px;
+                }
                 &__category{
                     margin-bottom: 56px;
                      h3{
