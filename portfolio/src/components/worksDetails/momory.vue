@@ -23,15 +23,15 @@
             <div class="ecoloop__content__backWarp__concepttbox">
                 <div class="ecoloop__content__backWarp__concepttbox__theme">
                     <label for="">「テーマ」</label>
-                    <p>「小説」</p>
+                    <p>「みんなでもっと集まろう！」</p>
                 </div>
                 <div class="ecoloop__content__backWarp__concepttbox__theme">
                     <label for="">「コンセプト」</label>
-                    <p>「文字で読ませるデザイン」</p>
+                    <p>「気軽に多く旧友と」</p>
                 </div>
                 <div class="ecoloop__content__backWarp__concepttbox__theme">
                     <label for="">「キーワード」</label>
-                    <p>「文字」「シンプル」「わかりやすく」</p>
+                    <p>「同窓会」「簡単」「開催」</p>
                 </div>
             </div>
             <section class="ecoloop__content__backWarp__planning">
@@ -39,38 +39,121 @@
                     <h3><span>概要</span></h3>
                     <p>
                         このサービスは同窓会を簡単い開催するための、同窓会支援サービスです。<br>
-                        近年、「同窓会が参加したことがある」という声が減少傾向にあり、原因が「予定が合わない」、「開催されない」、「連絡方法がない」と、言うふうになっています。<br>
+                        近年、「同窓会が参加したことがある」という声が減少傾向にあり、「予定が合わない」、「開催されない」、「連絡方法がない」が原因となっています。<br>
                         これらの問題を解決し、もっと気楽に集まれるようにサポートすることを目的としています。
                     </p>
                 </section>
-                <section class="ecoloop__content__backWarp__planning__category problembox">
-                    <h3><span>現状問題</span></h3>
+                <section class="ecoloop__content__backWarp__planning__category analysisbox">
+                    <h3><span>現状分析</span></h3>
+                    <h4>同窓会などの参加経験</h4>
+                    <div>
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                        <p>
+                            世代別で比較してみると、各世代ともに「参加したことがある」という声が減少傾向にある。<br>
+                            同窓会の参加経験を聞いたところ、「参加してみたいが、今まで参加したことがない」と回答した人も22.1％を占めました。
+                        </p>
+                    </div>
+                    <h4>「参加してみたいが、今まで参加したことがない」理由は？</h4>
+                    <div>
+                        <div>
+                            <img src="" alt="">
+                        </div>
+                        <p>
+                            「予定が合わない」<br>
+                            「開催されない」<br>
+                            「連絡方法がない」
+                        </p>
+                    </div>
                     <p>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
+                        この3つが主な理由とされている。
                     </p>
+                </section>
+                <section class="ecoloop__content__backWarp__planning__category problembox">
+                    <h3><span>問題</span></h3>
+                    <div>
+                        <p>
+                            「同級生達と集まりたいが社会人になると難しいなど様々な問題が出てくる」
+                        </p>
+                        <p>
+                            ・予定が合わない<br>
+                            ・集まりたいけどどうしたらいいかわからない<br>
+                            ・連絡先がわからない<br>
+                            ・気軽に開催できない
+                        </p>
+                    </div>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category solutionbox">
                     <h3><span>解決案</span></h3>
-                    <p>sdasdasdasdasd</p>
+                    <h4>手軽に同級生と集まれるサービスを開発！</h4>
+                    <p>
+                        ・自分でイベントを投稿する事ができる！
+                        ・連絡がわからない友達が見つかる！
+                        ・アンケート機能を使い、予定が合わせやすい！
+                    </p>
                 </section>
-                <section class="ecoloop__content__backWarp__planning__category purposebox">
-                    <h3><span>目的</span></h3>
-                    <p>asdasdasd</p>
+                 <section class="ecoloop__content__backWarp__planning__category targetbox">
+                    <h3><span>ターゲット</span></h3>
+                    <h4>30代の社会人</h4>
+                    <p>
+                        ・忙しく、予定が合わない人<br>
+                        ・同級生の連絡先がわからない人
+                    </p>
                 </section>
-                <section class="ecoloop__content__backWarp__planning__category meritbox">
-                    <h3><span>メリット</span></h3>
-                    <p>asdasda</p>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category profitbox">
-                    <h3><span>利益</span></h3>
-                    <p>asdasdasdas</p>
+                 <section class="ecoloop__content__backWarp__planning__category targetbox">
+                    <h3><span>ターゲット</span></h3>
+                    <h4>30代の社会人</h4>
+                    <p>
+                        ・忙しく、予定が合わない人<br>
+                        ・同級生の連絡先がわからない人
+                    </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category leadbox">
                     <h3><span>導線</span></h3>
-                    <p>asasdasdasdasd</p>
+                    <div>
+                        <h4>各学校のホームページにサービスのバナー掲載</h4>
+                        <p>
+                            学校のホームページに掲載してもらう事で同窓会などについて調べた時にサービスを知ってもらう
+                        </p>
+                    </div>
+                    <div>
+                        <h4>各学校より幹事役の人に知らせる</h4>
+                        <p>
+                            主催者となる幹事役の人に知ってもらうことで、幹事役の人が周りの人に紹介してくれる。
+                        </p>
+                    </div>
+                </section>
+                <section class="ecoloop__content__backWarp__planning__category purposebox">
+                    <h3><span>目的</span></h3>
+                    <p>
+                        同級生同士が気軽に集まれるようにサポートする。出身学校を登録する事で簡単に友達を探せる事ができ楽しい時間を過ごせる
+                    </p>
+                    <p>
+                        楽しい時間を過ごす事ができ、思い出に癒される。
+                    </p>
+                </section>
+                <section class="ecoloop__content__backWarp__planning__category effectbox">
+                    <h3><span>効果測定</span></h3>
+                    <div>
+                        <h4>ユーザー（登録者）</h4>
+                        <p>
+                            ・出身学校を登録することで簡単に同級生を見つける事ができ、便利と感じる。<br>
+                            ・アルバム機能で集まった時などの写真を残せることができ、思い出を残す事ができる。
+                        </p>
+                    </div>
+                    <div>
+                        <h4>ユーザー（イベント投稿者）</h4>
+                        <p>
+                            ・アンケート機能を使う事で多くの人が参加できる日を募集できる。
+                        </p>
+                    </div>
+                    <div>
+                        <h4>学校（ユーザー登録）</h4>
+                        <p>
+                            ・学校側も登録することにより、学校をイベント会場にしたり、昔の先生とも連絡を取る事が可能になる。
+                        </p>
+                    </div>
                 </section>
             </section>
         </section>
