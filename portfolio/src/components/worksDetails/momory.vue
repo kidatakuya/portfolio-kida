@@ -36,7 +36,7 @@
             </div>
             <section class="ecoloop__content__backWarp__planning">
                  <section class="ecoloop__content__backWarp__planning__category overviewbox">
-                    <h3><span>概要</span></h3>
+                    <h3><span>- 概要 -</span></h3>
                     <p>
                         このサービスは同窓会を簡単い開催するための、同窓会支援サービスです。<br>
                         近年、「同窓会が参加したことがある」という声が減少傾向にあり、「予定が合わない」、「開催されない」、「連絡方法がない」が原因となっています。<br>
@@ -44,29 +44,29 @@
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category analysisbox">
-                    <h3><span>現状分析</span></h3>
+                    <h3><span>- 現状分析 -</span></h3>
                     <h4>同窓会などの参加経験</h4>
-                    <div>
-                        <div>
-                            <img src="" alt="">
+                    <div class="analysisbox__inner">
+                        <div class="analysisbox__inner__imgWarp">
+                            <img src="../../assets/img/momory-graph.svg" alt="同窓会参加グラフ">
                         </div>
-                        <p>
+                        <p class="analysisbox__inner__textWarp">
                             世代別で比較してみると、各世代ともに「参加したことがある」という声が減少傾向にある。<br>
                             同窓会の参加経験を聞いたところ、「参加してみたいが、今まで参加したことがない」と回答した人も22.1％を占めました。
                         </p>
                     </div>
                     <h4>「参加してみたいが、今まで参加したことがない」理由は？</h4>
-                    <div>
-                        <div>
-                            <img src="" alt="">
+                    <div class="analysisbox__inner">
+                        <div class="analysisbox__inner__imgWarp">
+                            <img src="../../assets/img/momory-questionnaire.svg" alt="">
                         </div>
-                        <p>
+                        <p class="analysisbox__inner__textWarp">
                             「予定が合わない」<br>
                             「開催されない」<br>
                             「連絡方法がない」
                         </p>
                     </div>
-                    <p>
+                    <p class="analysisbox__text">
                         この3つが主な理由とされている。
                     </p>
                 </section>
@@ -278,11 +278,45 @@ export default {
                     text-align: center;
                     font-size: 24px;
                     color: #4D4D4D;
-                }
-                p{
-                    font-size: 16px;
-                    color: #A0A0A0;
-                }
+                    }
+                    h4{
+                        text-align: center;
+                    font-size: 22px;
+                    color: #4D4D4D;
+                    padding: 32px 0;
+                    }
+                    p{
+                        font-size: 16px;
+                        color: #A0A0A0;
+                    }
+                    .analysisbox{
+                        &__inner{
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            &__imgWarp{
+                                width: 40%;
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                            &__textWarp{
+                                 width: 40%;
+                                //  padding: 80px 0 40px;
+                                &:nth-of-type(2){
+                                    font-size: 18px;
+                                     color: #4D4D4D;
+                                }
+                            }
+                        }
+                        &__text{
+                            font-size: 20px;
+                            color: #4D4D4D;
+                            text-align: center;
+                            margin-top: 40px;
+                        }
+                    }
                 }
             }
           }
