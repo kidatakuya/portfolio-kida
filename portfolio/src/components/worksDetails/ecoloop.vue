@@ -105,15 +105,9 @@
     <section class="ecoloop__access">
         <ul class="ecoloop__access__navbox">
             <li class="ecoloop__access__navbox__nav">
-                <a>
+                <a href="#" target="_blank">
                     <label for="">Web</label>
                     <p>サイトをみる</p>
-                </a>
-            </li>
-            <li class="ecoloop__access__navbox__nav">
-                <a href="">
-                    <label for="">Mobile</label>
-                    <p>サイトを見る</p>
                 </a>
             </li>
         </ul>   

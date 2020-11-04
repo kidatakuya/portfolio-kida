@@ -7,15 +7,15 @@
                 <h1 class="ecoloop__content__top__titlebox_title title"><span>momory</span></h1>
             </div>
             <div class="ecoloop__content__top__production">
-                <p class="ecoloop__content__top__production__text"><label for="">制作時期</label>2019年10月〜</p>
-                <p class="ecoloop__content__top__production__text"><label for="">制作時間</label>40時間</p>
-                <p class="ecoloop__content__top__production__text"><label for="">制作</label>個人制作</p>
-                <p class="ecoloop__content__top__production__text"><label for="">担当箇所</label>すべて</p>
-                <p class="ecoloop__content__top__production__text"><label for="">使用言語</label>HTML、CSS、JavaScript、SASS</p>
-                <p class="ecoloop__content__top__production__text"><label for="">使用ソフト</label>XD、Photoshop、Illustrator</p>
+                <p class="ecoloop__content__top__production__text"><label for="">制作時期</label>2019年9月〜</p>
+                <p class="ecoloop__content__top__production__text"><label for="">制作時間</label>30時間</p>
+                <p class="ecoloop__content__top__production__text"><label for="">制作</label>グループ制作</p>
+                <p class="ecoloop__content__top__production__text"><label for="">担当箇所</label>フロントエンド、デザイン</p>
+                <p class="ecoloop__content__top__production__text"><label for="">使用言語</label>HTML、CSS、JavaScript、php</p>
+                <p class="ecoloop__content__top__production__text"><label for="">使用ソフト</label>Photoshop、Illustrator</p>
             </div>
             <div class="ecoloop__content__top__photo">
-                <img src="../../assets/img/Ecoloop.png" alt="">
+                <img src="../../assets/img/momory.png" alt="">
             </div>
         </div>
         <section class="ecoloop__content__backWarp">
@@ -35,6 +35,14 @@
                 </div>
             </div>
             <section class="ecoloop__content__backWarp__planning">
+                 <section class="ecoloop__content__backWarp__planning__category overviewbox">
+                    <h3><span>概要</span></h3>
+                    <p>
+                        このサービスは同窓会を簡単い開催するための、同窓会支援サービスです。<br>
+                        近年、「同窓会が参加したことがある」という声が減少傾向にあり、原因が「予定が合わない」、「開催されない」、「連絡方法がない」と、言うふうになっています。<br>
+                        これらの問題を解決し、もっと気楽に集まれるようにサポートすることを目的としています。
+                    </p>
+                </section>
                 <section class="ecoloop__content__backWarp__planning__category problembox">
                     <h3><span>現状問題</span></h3>
                     <p>
@@ -50,10 +58,6 @@
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category purposebox">
                     <h3><span>目的</span></h3>
-                    <p>asdasdasd</p>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category overviewbox">
-                    <h3><span>概要</span></h3>
                     <p>asdasdasd</p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category meritbox">
