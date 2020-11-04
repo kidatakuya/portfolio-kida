@@ -154,9 +154,6 @@ export default {
             }
             &__planning{
                 margin-top: 124px;
-                &:last-child{
-                    margin-bottom: 120px;
-                }
                 &__category{
                     margin-bottom: 56px;
                      h3{

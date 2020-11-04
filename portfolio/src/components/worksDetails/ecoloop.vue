@@ -82,11 +82,11 @@
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category modelbox">
-                    <h3><span>利益</span></h3>
+                    <h3><span>モデルケース</span></h3>
                     <p class="model__text">
                         <span>横浜市 生ごみバイオガス化の検討 ２０１９年８月２８日</span><br>
                         <span>生ゴミのバイオガスかを検討している横浜市にこのサービスをモデルケースとして使ってもらう。</span><br>
-                        <span><a href="https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/namagomi/namagas.html" target="_blank">https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/namagomi/namagas.html</a></span>
+                        <span><a class="model_url" href="https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/namagomi/namagas.html" target="_blank">https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/namagomi/namagas.html</a></span>
 
                     </p>
                 </section>
@@ -293,6 +293,11 @@ export default {
                     .model{
                         &__text{
                              @extend .cause__text;
+                            
+                            a{
+                                color: #4D4D4D;
+                            }
+                        
                         }
                     }
                     .leadbox{
@@ -307,6 +312,7 @@ export default {
                             background-position: center;
                             cursor: pointer;
                             margin: 0 auto;
+                            
                         }
                     }
                 

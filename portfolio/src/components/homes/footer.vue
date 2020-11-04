@@ -19,6 +19,7 @@ export default {
   .footer{
     width: 100vw;
     padding: 16px 0;
+    margin-top: 120px;
     background-color: #EFEFEF;
     &__text{
       color: #BEBEBE;
