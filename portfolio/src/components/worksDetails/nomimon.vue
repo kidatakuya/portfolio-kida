@@ -46,7 +46,7 @@
                     <h4>のみもんの利用方法</h4>
                     <p class="overviewbox__subText">
                         お店でドリンクを買い、QRコードを読み込む。
-                        </p>
+                    </p>
                     <div class="overviewbox__imgbox">
                         <div class="overviewbox__imgbox__item"><img src="../../assets/img/items01.svg" alt=""></div>
                         <div class="overviewbox__imgbox__item"><img src="../../assets/img/arrowLeft.svg" alt=""></div>
@@ -80,41 +80,41 @@
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category problembox">
                     <h3><span>- 現状問題 -</span></h3>
-                    <p>
+                    <p class="problembox__subText emphasis">
                         プラスチック容器のポイ捨てが社会問題になっている。
                     </p>
-                    <p>
+                    <p class="problembox__subText">
                        ゴミを捨てるにも、ゴミ箱の場所がわからない。<br>
                        ゴミ箱がいっぱいでゴミが入らない。
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category solutionbox">
                     <h3><span>- 解決案 -</span></h3>
-                    <p>
+                    <p class="solutionbox__subText emphasis">
                         ゴミ箱の場所が分かり、楽しくゴミを捨てるサービスを作る。
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category purposebox">
                     <h3><span>- 目的 -</span></h3>
-                    <p>
+                    <p class="purposebox__subText emphasis">
                         プラスチックゴミのポイ捨てをなくし、街をきれいにする。
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category meritbox">
                     <h3><span>- メリット -</span></h3>
-                    <p>
+                    <p class="meritbox__subText emphasis">
                         ゲームをしながら、街をきれいにすることができる。
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category profitbox">
                     <h3><span>- 利益 -</span></h3>
-                    <p>
+                    <p class="profitbox__subText emphasis">
                         オリジナルアイテムを作った店舗からの製作費<br>
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category leadbox">
                     <h3><span>- 導線 -</span></h3>
-                    <p>
+                    <p class="leadbox__subText emphasis">
                         提携店舗で告知してもらう<br>
                         SNS
                     </p>
@@ -239,29 +239,35 @@ export default {
                 &__category{
                     margin-bottom: 56px;
                      h3{
-                    text-align: center;
-                    font-size: 24px;
-                    color: #4D4D4D;
-                    }
+                        text-align: center;
+                        font-size: 24px;
+                        color: #4D4D4D;
+                        margin-bottom: 40px;
+                        }
                      h4{
                             font-size: 22px;
                             color: #4D4D4D;
                             text-align: center;
+                            margin-bottom: 40px;
                         }
                     p{
                         font-size: 16px;
                         color: #A0A0A0;
                     }
+                    .emphasis{
+                        text-align: center;
+                        font-size: 18px;
+                            color: #4D4D4D;
+                    }
 
                     .overviewbox{
-
                         &__mainText{
                             margin: 0 0 80px;
                         }
-                       
                         &__subText{
                             text-align: center;
                             font-size: 18px;
+                            color: #4D4D4D;
                         }
 
                         &__imgbox{
@@ -271,6 +277,7 @@ export default {
                             align-items: center;
                             &__item{
                                 width: 20%;
+                                text-align: center;
                                 img{
                                     width: 50%;
                                 } 
@@ -284,6 +291,13 @@ export default {
 
                         }
                     }
+                    .problembox{
+                        &__subText{
+                            text-align: center;
+                            margin-top: 40px;
+                        }
+                    }
+                    
                 }
             }
           }
