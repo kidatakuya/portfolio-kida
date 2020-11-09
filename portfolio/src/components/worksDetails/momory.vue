@@ -71,7 +71,7 @@
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category problembox">
-                    <h3><span>問題</span></h3>
+                    <h3><span>- 問題 -</span></h3>
                     <div>
                         <p>
                             「同級生達と集まりたいが社会人になると難しいなど様々な問題が出てくる」
@@ -85,7 +85,7 @@
                     </div>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category solutionbox">
-                    <h3><span>解決案</span></h3>
+                    <h3><span>- 解決案 -</span></h3>
                     <h4>手軽に同級生と集まれるサービスを開発！</h4>
                     <p>
                         ・自分でイベントを投稿する事ができる！
@@ -94,23 +94,15 @@
                     </p>
                 </section>
                  <section class="ecoloop__content__backWarp__planning__category targetbox">
-                    <h3><span>ターゲット</span></h3>
+                    <h3><span>- ターゲット -</span></h3>
                     <h4>30代の社会人</h4>
-                    <p>
-                        ・忙しく、予定が合わない人<br>
-                        ・同級生の連絡先がわからない人
-                    </p>
-                </section>
-                 <section class="ecoloop__content__backWarp__planning__category targetbox">
-                    <h3><span>ターゲット</span></h3>
-                    <h4>30代の社会人</h4>
-                    <p>
+                    <p class="targetbox__text">
                         ・忙しく、予定が合わない人<br>
                         ・同級生の連絡先がわからない人
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category leadbox">
-                    <h3><span>導線</span></h3>
+                    <h3><span>- 導線 -</span></h3>
                     <div>
                         <h4>各学校のホームページにサービスのバナー掲載</h4>
                         <p>
@@ -125,7 +117,7 @@
                     </div>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category purposebox">
-                    <h3><span>目的</span></h3>
+                    <h3><span>- 目的 -</span></h3>
                     <p>
                         同級生同士が気軽に集まれるようにサポートする。出身学校を登録する事で簡単に友達を探せる事ができ楽しい時間を過ごせる
                     </p>
@@ -134,7 +126,7 @@
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category effectbox">
-                    <h3><span>効果測定</span></h3>
+                    <h3><span>- 効果測定 -</span></h3>
                     <div>
                         <h4>ユーザー（登録者）</h4>
                         <p>
@@ -272,6 +264,9 @@ export default {
             }
             &__planning{
                 margin-top: 124px;
+                p{
+                    text-align: center;
+                }
                 &__category{
                     margin-bottom: 56px;
                      h3{
@@ -315,6 +310,11 @@ export default {
                             color: #4D4D4D;
                             text-align: center;
                             margin-top: 40px;
+                        }
+                    }
+                    .targetbox{
+                        &__text{
+                            text-align: center;
                         }
                     }
                 }

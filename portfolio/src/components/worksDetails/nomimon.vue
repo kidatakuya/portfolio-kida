@@ -10,7 +10,7 @@
                 <p class="ecoloop__content__top__production__text"><label for="">制作時期</label>2019年10月〜</p>
                 <p class="ecoloop__content__top__production__text"><label for="">制作時間</label>40時間</p>
                 <p class="ecoloop__content__top__production__text"><label for="">制作</label>個人制作</p>
-                <p class="ecoloop__content__top__production__text"><label for="">担当箇所</label>すべて</p>
+                <p class="ecoloop__content__top__production__text"><label for="">担当箇所</label>フロントエンド</p>
                 <p class="ecoloop__content__top__production__text"><label for="">使用言語</label>HTML、CSS、JavaScript、SASS</p>
                 <p class="ecoloop__content__top__production__text"><label for="">使用ソフト</label>XD、Photoshop、Illustrator</p>
             </div>
@@ -35,38 +35,89 @@
                 </div>
             </div>
             <section class="ecoloop__content__backWarp__planning">
+                 <section class="ecoloop__content__backWarp__planning__category overviewbox">
+                    <h3><span>概要</span></h3>
+                    <p class="overviewbox__mainText">
+                        のみもんとは、カフェなどでドリンクを買うついでにQRコードを読み込み、キャラクターを育てるゲームです。<br>
+                        ドリンク容器のポイ捨てが社会問題になっており、タピオカがSNSでブームになったのを機にさまざまな場所でプラスチック容器のゴミが問題になりました。
+                        また、ゴミを捨てるにも、容器がゴミ箱に入らない、またはゴミ箱がどこにあるかわからないという問題から、結局ゴミを放置するという結果になっている。
+                        そんな人達の為にゲームを楽しんでもらいながら容器をゴミ箱に捨ててもらうというサービスを考えました。
+                    </p>
+                    <h4>のみもんの利用方法</h4>
+                    <p class="overviewbox__subText">
+                        お店でドリンクを買い、QRコードを読み込む。
+                        </p>
+                    <div class="overviewbox__imgbox">
+                        <div class="overviewbox__imgbox__item"></div>
+                        <div class="overviewbox__imgbox__item"></div>
+                        <div class="overviewbox__imgbox__item"></div>
+                        <div class="overviewbox__imgbox__item"></div>
+                        <div class="overviewbox__imgbox__item"></div>
+                    </div>
+                    <p>
+                        ゴミ箱のQRコードから経験値やアイテムを取得し、キャラクターを育成する。
+                        </p>
+                    <div class="overviewbox__imgbox">
+                        <div class="overviewbox__imgbox__item"></div>
+                        <div class="overviewbox__imgbox__item"></div>
+                        <div class="overviewbox__imgbox__item"></div>
+                        <div class="overviewbox__imgbox__item"></div>
+                        <div class="overviewbox__imgbox__item"></div>
+                    </div>
+                    <p>
+                        「かわいい」「かっこいい」「おしゃれ」のいずれかのステータスからパラメーターがカンストすると進化する。
+                        </p>
+                    <div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <p>
+                        さまざまなキャラクターを育成し、コンプリートしよう！
+                    </p>
+                </section>
                 <section class="ecoloop__content__backWarp__planning__category problembox">
                     <h3><span>現状問題</span></h3>
                     <p>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
+                        プラスチック容器のポイ捨てが社会問題になっている。
+                    </p>
+                    <p>
+                       ゴミを捨てるにも、ゴミ箱の場所がわからない。<br>
+                       ゴミ箱がいっぱいでゴミが入らない。
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category solutionbox">
                     <h3><span>解決案</span></h3>
-                    <p>sdasdasdasdasd</p>
+                    <p>
+                        ゴミ箱の場所が分かり、楽しくゴミを捨てるサービスを作る。
+                    </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category purposebox">
                     <h3><span>目的</span></h3>
-                    <p>asdasdasd</p>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category overviewbox">
-                    <h3><span>概要</span></h3>
-                    <p>asdasdasd</p>
+                    <p>
+                        プラスチックゴミのポイ捨てをなくし、街をきれいにする。
+                    </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category meritbox">
                     <h3><span>メリット</span></h3>
-                    <p>asdasda</p>
+                    <p>
+                        ゲームをしながら、街をきれいにすることができる。
+                    </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category profitbox">
                     <h3><span>利益</span></h3>
-                    <p>asdasdasdas</p>
+                    <p>
+                        オリジナルアイテムを作った店舗からの製作費<br>
+                    </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category leadbox">
                     <h3><span>導線</span></h3>
-                    <p>asasdasdasdasd</p>
+                    <p>
+                        提携店舗で告知してもらう<br>
+                        SNS
+                    </p>
                 </section>
             </section>
         </section>
