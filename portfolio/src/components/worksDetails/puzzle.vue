@@ -23,50 +23,51 @@
             <div class="ecoloop__content__backWarp__concepttbox">
                 <div class="ecoloop__content__backWarp__concepttbox__theme">
                     <label for="">「テーマ」</label>
-                    <p>「小説」</p>
+                    <p>「先輩と交流して、悩みを解決」</p>
                 </div>
                 <div class="ecoloop__content__backWarp__concepttbox__theme">
                     <label for="">「コンセプト」</label>
-                    <p>「文字で読ませるデザイン」</p>
+                    <p>「輪を広げよう」</p>
                 </div>
                 <div class="ecoloop__content__backWarp__concepttbox__theme">
                     <label for="">「キーワード」</label>
-                    <p>「文字」「シンプル」「わかりやすく」</p>
+                    <p>「つながり」「問題解決」「ピース」</p>
                 </div>
             </div>
             <section class="ecoloop__content__backWarp__planning">
+                <section class="ecoloop__content__backWarp__planning__category overviewbox">
+                    <h3><span>概要</span></h3>
+                    <p>
+                         学校でわからないことがあっても、先生以外聞く人がいない。資格を取ろうと考えた時、どう勉強したら良いかわからない。そんな人が質問を投稿し、先輩とあって答えてもらう。先輩後輩との交流を増やし質問答えてもらうマッチング方の問題解決サービスです。
+                    </p>
+                </section>
                 <section class="ecoloop__content__backWarp__planning__category problembox">
                     <h3><span>現状問題</span></h3>
                     <p>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
+                        質問がしたいけど、誰に聞けばいいかわからないし、質問する機会がない。<br>
+                        先輩が何が得意でどういう技術を持ってるかわからない。
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category solutionbox">
                     <h3><span>解決案</span></h3>
-                    <p>sdasdasdasdasd</p>
+                    <p>
+                        事前の何が得意か登録でき、質問投稿や実際にあって質問できるような、学内のマッチング方問題解決サービスを作る。
+                    </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category purposebox">
                     <h3><span>目的</span></h3>
-                    <p>asdasdasd</p>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category overviewbox">
-                    <h3><span>概要</span></h3>
-                    <p>asdasdasd</p>
+                    <p>
+                        疑問点の問題解決<br>
+                        先輩との交流の機会を作る
+                    </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category meritbox">
                     <h3><span>メリット</span></h3>
-                    <p>asdasda</p>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category profitbox">
-                    <h3><span>利益</span></h3>
-                    <p>asdasdasdas</p>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category leadbox">
-                    <h3><span>導線</span></h3>
-                    <p>asasdasdasdasd</p>
+                    <p>
+                        先輩の得意なことがわかる<br>
+                        先輩と交流はできる。<br>
+                        問題が解決する。
+                    </p>
                 </section>
             </section>
         </section>
