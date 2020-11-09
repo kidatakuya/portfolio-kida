@@ -36,7 +36,7 @@
             </div>
             <section class="ecoloop__content__backWarp__planning">
                  <section class="ecoloop__content__backWarp__planning__category overviewbox">
-                    <h3><span>概要</span></h3>
+                    <h3><span>- 概要 -</span></h3>
                     <p class="overviewbox__mainText">
                         のみもんとは、カフェなどでドリンクを買うついでにQRコードを読み込み、キャラクターを育てるゲームです。<br>
                         ドリンク容器のポイ捨てが社会問題になっており、タピオカがSNSでブームになったのを機にさまざまな場所でプラスチック容器のゴミが問題になりました。
@@ -48,38 +48,38 @@
                         お店でドリンクを買い、QRコードを読み込む。
                         </p>
                     <div class="overviewbox__imgbox">
-                        <div class="overviewbox__imgbox__item"></div>
-                        <div class="overviewbox__imgbox__item"></div>
-                        <div class="overviewbox__imgbox__item"></div>
-                        <div class="overviewbox__imgbox__item"></div>
-                        <div class="overviewbox__imgbox__item"></div>
+                        <div class="overviewbox__imgbox__item"><img src="../../assets/img/items01.svg" alt=""></div>
+                        <div class="overviewbox__imgbox__item"><img src="../../assets/img/arrowLeft.svg" alt=""></div>
+                        <div class="overviewbox__imgbox__item"><img src="../../assets/img/items02.svg" alt=""></div>
+                        <div class="overviewbox__imgbox__item"><img src="../../assets/img/arrowLeft.svg" alt=""></div>
+                        <div class="overviewbox__imgbox__item"><img src="../../assets/img/items03.svg" alt=""></div>
                     </div>
-                    <p>
+                    <p class="overviewbox__subText">
                         ゴミ箱のQRコードから経験値やアイテムを取得し、キャラクターを育成する。
                         </p>
                     <div class="overviewbox__imgbox">
-                        <div class="overviewbox__imgbox__item"></div>
-                        <div class="overviewbox__imgbox__item"></div>
-                        <div class="overviewbox__imgbox__item"></div>
-                        <div class="overviewbox__imgbox__item"></div>
-                        <div class="overviewbox__imgbox__item"></div>
+                        <div class="overviewbox__imgbox__item"><img src="../../assets/img/items04.svg" alt=""></div>
+                        <div class="overviewbox__imgbox__item"><img src="../../assets/img/arrowLeft.svg" alt=""></div>
+                        <div class="overviewbox__imgbox__item"><img src="../../assets/img/items05.svg" alt=""></div>
+                        <div class="overviewbox__imgbox__item"><img src="../../assets/img/arrowLeft.svg" alt=""></div>
+                        <div class="overviewbox__imgbox__item"><img src="../../assets/img/items06.svg" alt=""></div>
                     </div>
-                    <p>
+                    <p class="overviewbox__subText">
                         「かわいい」「かっこいい」「おしゃれ」のいずれかのステータスからパラメーターがカンストすると進化する。
-                        </p>
-                    <div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                    </p>
+                    <div class="overviewbox__imgbox">
+                        <div class="overviewbox__imgbox__item"><img src="../../assets/img/character01.png" alt=""></div>
+                        <div class="overviewbox__imgbox__item"><img src="../../assets/img/arrowLeft.svg" alt=""></div>
+                        <div class="overviewbox__imgbox__item"><img src="../../assets/img/character02.png" alt=""></div>
+                        <div class="overviewbox__imgbox__item"><img src="../../assets/img/arrowLeft.svg" alt=""></div>
+                        <div class="overviewbox__imgbox__item"><img src="../../assets/img/character03.png" alt=""></div>
                     </div>
-                    <p>
+                    <p class="overviewbox__subText">
                         さまざまなキャラクターを育成し、コンプリートしよう！
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category problembox">
-                    <h3><span>現状問題</span></h3>
+                    <h3><span>- 現状問題 -</span></h3>
                     <p>
                         プラスチック容器のポイ捨てが社会問題になっている。
                     </p>
@@ -89,31 +89,31 @@
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category solutionbox">
-                    <h3><span>解決案</span></h3>
+                    <h3><span>- 解決案 -</span></h3>
                     <p>
                         ゴミ箱の場所が分かり、楽しくゴミを捨てるサービスを作る。
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category purposebox">
-                    <h3><span>目的</span></h3>
+                    <h3><span>- 目的 -</span></h3>
                     <p>
                         プラスチックゴミのポイ捨てをなくし、街をきれいにする。
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category meritbox">
-                    <h3><span>メリット</span></h3>
+                    <h3><span>- メリット -</span></h3>
                     <p>
                         ゲームをしながら、街をきれいにすることができる。
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category profitbox">
-                    <h3><span>利益</span></h3>
+                    <h3><span>- 利益 -</span></h3>
                     <p>
                         オリジナルアイテムを作った店舗からの製作費<br>
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category leadbox">
-                    <h3><span>導線</span></h3>
+                    <h3><span>- 導線 -</span></h3>
                     <p>
                         提携店舗で告知してもらう<br>
                         SNS
@@ -242,11 +242,48 @@ export default {
                     text-align: center;
                     font-size: 24px;
                     color: #4D4D4D;
-                }
-                p{
-                    font-size: 16px;
-                    color: #A0A0A0;
-                }
+                    }
+                     h4{
+                            font-size: 22px;
+                            color: #4D4D4D;
+                            text-align: center;
+                        }
+                    p{
+                        font-size: 16px;
+                        color: #A0A0A0;
+                    }
+
+                    .overviewbox{
+
+                        &__mainText{
+                            margin: 0 0 80px;
+                        }
+                       
+                        &__subText{
+                            text-align: center;
+                            font-size: 18px;
+                        }
+
+                        &__imgbox{
+                            padding: 80px 0;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            &__item{
+                                width: 20%;
+                                img{
+                                    width: 50%;
+                                } 
+                                &:nth-of-type(2){
+                                    width: 10%;
+                                }
+                                &:nth-of-type(4){
+                                    width: 10%;
+                                }
+                            }
+
+                        }
+                    }
                 }
             }
           }
