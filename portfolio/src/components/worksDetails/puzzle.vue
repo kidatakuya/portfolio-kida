@@ -10,7 +10,7 @@
                 <p class="ecoloop__content__top__production__text"><label for="">制作時期</label>2019年10月〜</p>
                 <p class="ecoloop__content__top__production__text"><label for="">制作時間</label>40時間</p>
                 <p class="ecoloop__content__top__production__text"><label for="">制作</label>個人制作</p>
-                <p class="ecoloop__content__top__production__text"><label for="">担当箇所</label>すべて</p>
+                <p class="ecoloop__content__top__production__text"><label for="">担当箇所</label>フロントエンド</p>
                 <p class="ecoloop__content__top__production__text"><label for="">使用言語</label>HTML、CSS、JavaScript、SASS</p>
                 <p class="ecoloop__content__top__production__text"><label for="">使用ソフト</label>XD、Photoshop、Illustrator</p>
             </div>

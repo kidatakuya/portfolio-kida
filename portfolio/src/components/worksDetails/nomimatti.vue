@@ -23,7 +23,7 @@
             <div class="ecoloop__content__backWarp__concepttbox">
                 <div class="ecoloop__content__backWarp__concepttbox__theme">
                     <label for="">「テーマ」</label>
-                    <p>「小説」</p>
+                    <p>「飲み仲間探し」</p>
                 </div>
                 <div class="ecoloop__content__backWarp__concepttbox__theme">
                     <label for="">「コンセプト」</label>
@@ -31,42 +31,79 @@
                 </div>
                 <div class="ecoloop__content__backWarp__concepttbox__theme">
                     <label for="">「キーワード」</label>
-                    <p>「文字」「シンプル」「わかりやすく」</p>
+                    <p>「刺しのみ」「誰でも」「マッチング」</p>
                 </div>
             </div>
             <section class="ecoloop__content__backWarp__planning">
-                <section class="ecoloop__content__backWarp__planning__category problembox">
-                    <h3><span>現状問題</span></h3>
-                    <p>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
-                        asasdasdasdasdasdasdas<br>
-                    </p>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category solutionbox">
-                    <h3><span>解決案</span></h3>
-                    <p>sdasdasdasdasd</p>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category purposebox">
-                    <h3><span>目的</span></h3>
-                    <p>asdasdasd</p>
-                </section>
                 <section class="ecoloop__content__backWarp__planning__category overviewbox">
                     <h3><span>概要</span></h3>
                     <p>asdasdasd</p>
                 </section>
+                <section class="ecoloop__content__backWarp__planning__category problembox">
+                    <h3><span>現状問題</span></h3>
+                    <p>
+                        誰かと飲みに行きたいけど、知人と予定が合わない。<br>
+                        上京して、飲みに行く知人がいない。
+                    </p>
+                </section>
+                <section class="ecoloop__content__backWarp__planning__category solutionbox">
+                    <h3><span>解決案</span></h3>
+                    <p>
+                        複数人だと話しにくい人がいる可能性があるので、刺しのみ用のマッチングサービスにする。
+                    </p>
+                </section>
+                <section class="ecoloop__content__backWarp__planning__category purposebox">
+                    <h3><span>目的</span></h3>
+                    <p>
+                        刺し飲み仲間を探す。
+                    </p>
+                </section>
                 <section class="ecoloop__content__backWarp__planning__category meritbox">
                     <h3><span>メリット</span></h3>
-                    <p>asdasda</p>
+                    <h4>ユーザー</h4>
+                    <p>
+                        飲み仲間を作ることができる。
+                    </p>
+                    <h4>店舗</h4>
+                    <p>
+                        自分の店舗に来ているお客様情報が手に入る。
+                    </p>
+                    <h4>自社</h4>
+                    <p>
+                        飲食業界の情報が入る。
+                    </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category profitbox">
                     <h3><span>利益</span></h3>
-                    <p>asdasdasdas</p>
+                    <p>
+                        ・サービス使用で得た情報を提供し、情報料をもらう。
+                        ・サービス内に広告をつけ、広告収入を得る。
+                        ・飲食店と提携して紹介料をもらう。
+                    </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category leadbox">
                     <h3><span>導線</span></h3>
-                    <p>asasdasdasdasd</p>
+                    <p>
+                        ・提携している飲食店のインスタグラム、ツイッター、などのSNS で告知してもらう。<br>
+                        ・飲食の店舗でポスター、チラシなどで宣伝してもらう。
+                    </p>
+                </section>
+                <section class="ecoloop__content__backWarp__planning__category functionbox">
+                    <h3><span>機能</span></h3>
+                    <p>
+                        ・アカウント登録<br>
+                        ・フォロー（検索機能はなく、マッチングした人飲みフォロー可能）<br>
+                        ・地図（店の位置情報）<br>
+                        ・飲食店を巻き込む。<br>
+                        ・投稿（マッチング相手集め）<br>
+                        ・投稿絞り込み（地域のみ、フォロワーのみ、性別）<br>
+                        ・巻き込んでいる店舗のイベント情報掲載、通知、ウェルカムボードに掲載する。<br>
+                        （写真を＃( ハッシュタグ) つきでアップしたら100 円引き！）<br>
+                        （お店のSNS をフォローで、ドリンク一杯サービス！）<br>
+                        ・ペイと同期（自動割り勘）<br>
+                        ・ランク機能。<br>
+                        ・アプリ内で予約（マッチングで自動予約、店行かないと500 円の席料がお互いに発生片方がする来なかった場合、1000 円が来なかった方に発生する。）
+                    </p>
                 </section>
             </section>
         </section>
