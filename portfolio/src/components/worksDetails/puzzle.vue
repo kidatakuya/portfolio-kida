@@ -38,36 +38,40 @@
                 <section class="ecoloop__content__backWarp__planning__category overviewbox">
                     <h3><span>概要</span></h3>
                     <p>
-                         学校でわからないことがあっても、先生以外聞く人がいない。資格を取ろうと考えた時、どう勉強したら良いかわからない。そんな人が質問を投稿し、先輩とあって答えてもらう。先輩後輩との交流を増やし質問答えてもらうマッチング方の問題解決サービスです。
+                         学校でわからないことがあっても、先生以外聞く人がいない。資格を取ろうと考えた時、どう勉強したら良いかわからない。そんな人が質問を投稿し、先輩とあって答えてもらう。<br>先輩後輩との交流を増やし質問答えてもらうマッチング方の問題解決サービスです。
                     </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category problembox">
-                    <h3><span>現状問題</span></h3>
-                    <p>
-                        質問がしたいけど、誰に聞けばいいかわからないし、質問する機会がない。<br>
-                        先輩が何が得意でどういう技術を持ってるかわからない。
-                    </p>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category solutionbox">
-                    <h3><span>解決案</span></h3>
-                    <p>
-                        事前の何が得意か登録でき、質問投稿や実際にあって質問できるような、学内のマッチング方問題解決サービスを作る。
-                    </p>
+                    <div class="ecoloop__content__backWarp__planning__category__inner problembox__inner">
+                        <h3><span>現状問題</span></h3>
+                        <p>
+                            ・質問がしたいけど、誰に聞けばいいかわからないし、質問する機会がない。<br>
+                            ・先輩が何が得意でどういう技術を持ってるかわからない。
+                        </p>
+                    </div>
+                    <div class="ecoloop__content__backWarp__planning__category__inner problembox__inner">
+                        <h3><span>解決案</span></h3>
+                        <p>
+                            事前に何が得意か登録でき、質問投稿や実際にあって質問できるような、学内のマッチング方問題解決サービスを作る。
+                        </p>
+                    </div>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category purposebox">
-                    <h3><span>目的</span></h3>
-                    <p>
-                        疑問点の問題解決<br>
-                        先輩との交流の機会を作る
-                    </p>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category meritbox">
-                    <h3><span>メリット</span></h3>
-                    <p>
-                        先輩の得意なことがわかる<br>
-                        先輩と交流はできる。<br>
-                        問題が解決する。
-                    </p>
+                    <div class="ecoloop__content__backWarp__planning__category__inner purposebox__inner">
+                        <h3><span>目的</span></h3>
+                        <p>
+                            ・疑問点の問題解決<br>
+                            ・先輩との交流の機会を作る
+                        </p>
+                    </div>
+                    <div class="ecoloop__content__backWarp__planning__category__inner purposebox__inner">
+                        <h3><span>メリット</span></h3>
+                        <p>
+                            ・先輩の得意なことがわかる<br>
+                            ・先輩と交流はできる。<br>
+                            ・問題が解決する。
+                        </p>
+                    </div>
                 </section>
             </section>
         </section>
@@ -188,15 +192,47 @@ export default {
                 margin-top: 124px;
                 &__category{
                     margin-bottom: 56px;
+                    position: relative;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    &__inner{
+                        width: 45%;
+                        display: flex;
+                        justify-content: center;
+                        flex-wrap: wrap;
+                    }
                      h3{
                     text-align: center;
                     font-size: 24px;
                     color: #4D4D4D;
+                    margin-bottom: 40px;
+                    width: 100%;
+                    h4{
+                        margin-bottom: 24px;
+                        width: 100%;
+                        text-align: center;
+                    }
                 }
                 p{
                     font-size: 16px;
                     color: #A0A0A0;
+                    display: inline-block;
+                    width: auto;
+                   
+                    
                 }
+                }
+                .problembox{
+
+                }
+                .overviewbox{
+                    p{
+                       
+                        display: inline-block;
+                        padding: 0 auto;
+                        margin: 0 auto;
+                    }
                 }
             }
           }
