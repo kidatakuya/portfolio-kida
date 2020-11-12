@@ -36,60 +36,75 @@
             </div>
             <section class="ecoloop__content__backWarp__planning">
                 <section class="ecoloop__content__backWarp__planning__category overviewbox">
-                    <h3><span>概要</span></h3>
-                    <p>asdasdasd</p>
+                    <h3><span>- 概要 -</span></h3>
+                    <p>
+                        このサービスは飲みに行くのが好きで、飲みに行きたいけど予定が合わない。上京したばかりで飲みに行く友達が近くにいない。そんな人同士を引き合わせるマッチングアプリです。
+                    </p>
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category problembox">
-                    <h3><span>現状問題</span></h3>
-                    <p>
-                        誰かと飲みに行きたいけど、知人と予定が合わない。<br>
-                        上京して、飲みに行く知人がいない。
-                    </p>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category solutionbox">
-                    <h3><span>解決案</span></h3>
-                    <p>
-                        複数人だと話しにくい人がいる可能性があるので、刺しのみ用のマッチングサービスにする。
-                    </p>
+                    <div  class="ecoloop__content__backWarp__planning__category__inner problembox__inner">
+                        <h3><span>- 現状問題 -</span></h3>
+                        <p>
+                            誰かと飲みに行きたいけど、知人と予定が合わない。<br>
+                            上京して、飲みに行く知人がいない。
+                        </p>
+                    </div>
+                    <div class="ecoloop__content__backWarp__planning__category__inner problembox__inner">
+                        <h3><span>- 解決案 -</span></h3>
+                        <p>
+                            複数人だと話しにくい人がいる可能性があるので、刺しのみ用のマッチングサービスにする。
+                        </p>
+                    </div>
+                    
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category purposebox">
-                    <h3><span>目的</span></h3>
-                    <p>
-                        刺し飲み仲間を探す。
-                    </p>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category meritbox">
-                    <h3><span>メリット</span></h3>
-                    <h4>ユーザー</h4>
-                    <p>
-                        飲み仲間を作ることができる。
-                    </p>
-                    <h4>店舗</h4>
-                    <p>
-                        自分の店舗に来ているお客様情報が手に入る。
-                    </p>
-                    <h4>自社</h4>
-                    <p>
-                        飲食業界の情報が入る。
-                    </p>
+                    <div class="ecoloop__content__backWarp__planning__category__inner purposebox__inner">
+                        <h3><span>- 目的 -</span></h3>
+                        <p>
+                            刺し飲み仲間を探す。
+                        </p>
+                    </div>
+                    <div class="ecoloop__content__backWarp__planning__category__inner purposebox__inner">
+                        <h3><span>- メリット -</span></h3>
+                        <h4>ユーザー</h4>
+                        <p>
+                            飲み仲間を作ることができる。
+                        </p>
+                        <h4>店舗</h4>
+                        <p>
+                            自分の店舗に来ているお客様情報が手に入る。
+                        </p>
+                        <h4>自社</h4>
+                        <p>
+                            飲食業界の情報が入る。
+                        </p>
+                    </div>
+                    
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category profitbox">
-                    <h3><span>利益</span></h3>
-                    <p>
-                        ・サービス使用で得た情報を提供し、情報料をもらう。
-                        ・サービス内に広告をつけ、広告収入を得る。
-                        ・飲食店と提携して紹介料をもらう。
-                    </p>
+                    <div class="ecoloop__content__backWarp__planning__category__inner profitbox__inner">
+                        <h3><span>- 利益 -</span></h3>
+                        <p>
+                            ・サービス使用で得た情報を提供し、情報料をもらう。
+                            ・サービス内に広告をつけ、広告収入を得る。
+                            ・飲食店と提携して紹介料をもらう。
+                        </p>
+                    </div>
+                    <div class="ecoloop__content__backWarp__planning__category__inner profitbox__inner">
+                        <h3><span>- 導線 -</span></h3>
+                        <p>
+                            ・提携している飲食店のインスタグラム、ツイッター、などのSNS で告知してもらう。<br>
+                            ・飲食の店舗でポスター、チラシなどで宣伝してもらう。
+                        </p>
+                    </div>
+                    
+                    
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category leadbox">
-                    <h3><span>導線</span></h3>
-                    <p>
-                        ・提携している飲食店のインスタグラム、ツイッター、などのSNS で告知してもらう。<br>
-                        ・飲食の店舗でポスター、チラシなどで宣伝してもらう。
-                    </p>
+                    
                 </section>
                 <section class="ecoloop__content__backWarp__planning__category functionbox">
-                    <h3><span>機能</span></h3>
+                    <h3><span>- 機能 -</span></h3>
                     <p>
                         ・アカウント登録<br>
                         ・フォロー（検索機能はなく、マッチングした人飲みフォロー可能）<br>
@@ -224,15 +239,33 @@ export default {
                 margin-top: 124px;
                 &__category{
                     margin-bottom: 56px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    
+                    &__inner{
+                        width: 45%;
+                        h4{
+                            font-size: 18px;
+                            text-align: center;
+                             color: #4D4D4D;
+                             padding: 20px;
+                        }
+                    }
                      h3{
                     text-align: center;
                     font-size: 24px;
                     color: #4D4D4D;
+                    width: 100%;
+                    padding: 20px 0;
+                    }
+                    p{
+                        font-size: 16px;
+                        color: #A0A0A0;
+                    }
                 }
-                p{
-                    font-size: 16px;
-                    color: #A0A0A0;
-                }
+                .purposebox{
+                    text-align: center;
                 }
             }
           }
