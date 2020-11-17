@@ -11,7 +11,7 @@
               今、世界中でゴミの量の多さが問題視されている。それは日本も例外ではありません。日本でも生ゴミの排出量が大きな問題になっている。そのため、日本では生ゴミによるバイオマス、バイオガス発電のプロジェクトに取り組む市や街が存在する。<br>
               ECO LOOPでは、上記のプロジェクトに取り組む市や街をサポートする、街が一体となってエコ活動をしているという意識を持てるようなにするサービスです。
             </p>
-            <p  class="work__content__textWarp__category"><label for="">個人制作</label><label for="">個人制作</label><label for="">個人制作</label></p>
+            <p  class="work__content__textWarp__category"><label for="">個人制作</label><label for="">１年後期</label></p>
             <router-link to="/ecoloop" class="work__content__textWarp__link">サイト詳細</router-link>
         </div>
     </div>
@@ -67,14 +67,17 @@ export default {
             margin-right: 8px;
             display: flex;
             align-items: center;
-            &::before{
-              content: "";
-              display: inline-block;
-              width: 6px;
-              height: 6px;
-              border-radius: 50%;
-              border: 1px solid #707070;
-            }
+             background: rgb(133, 170, 58);
+            color: #fff;
+            padding: 0 8px;
+            // &::before{
+            //   content: "";
+            //   display: inline-block;
+            //   width: 6px;
+            //   height: 6px;
+            //   border-radius: 50%;
+            //   border: 1px solid #707070;
+            // }
           }
         }
         &__link{

@@ -12,7 +12,7 @@
               近年、「同窓会が参加したことがある」という声が減少傾向にあり、原因が「予定が合わない」、「開催されない」、「連絡方法がない」と、言うふうになっています。<br>
               これらの問題を解決し、もっと気楽に集まれるようにサポートすることを目的としています。
             </p>
-            <p  class="work__content__textWarp__category"><label for="">個人制作</label><label for="">個人制作</label><label for="">個人制作</label></p>
+            <p  class="work__content__textWarp__category"><label for="">グループ制作</label><label for="">夏季制作</label><label for="">フロントエンド・デザイン</label></p>
             <router-link to="/momory" class="work__content__textWarp__link">サイト詳細</router-link>
         </div>
     </div>
@@ -66,14 +66,17 @@ export default {
             margin-right: 8px;
             display: flex;
             align-items: center;
-            &::before{
-              content: "";
-              display: inline-block;
-              width: 6px;
-              height: 6px;
-              border-radius: 50%;
-              border: 1px solid #707070;
-            }
+            background: rgb(133, 170, 58);
+            color: #fff;
+            padding: 0 8px;
+            // &::before{
+            //   content: "";
+            //   display: inline-block;
+            //   width: 6px;
+            //   height: 6px;
+            //   border-radius: 50%;
+            //   border: 1px solid #707070;
+            // }
           }
         }
         &__link{

@@ -10,7 +10,7 @@
             <p  class="work__content__textWarp__text">
               このサービスは飲みに行くのが好きで、飲みに行きたいけど予定が合わない。上京したばかりで飲みに行く友達が近くにいない。そんな人同士を引き合わせるマッチングアプリです。
             </p>
-            <p  class="work__content__textWarp__category"><label for="">個人制作</label><label for="">個人制作</label><label for="">個人制作</label></p>
+            <p  class="work__content__textWarp__category"><label for="">個人制作</label><label for="">２年前期</label></p>
             <router-link to="/nomimatti" class="work__content__textWarp__link">サイト詳細</router-link>
         </div>
     </div>
@@ -64,14 +64,17 @@ export default {
             margin-right: 8px;
             display: flex;
             align-items: center;
-            &::before{
-              content: "";
-              display: inline-block;
-              width: 6px;
-              height: 6px;
-              border-radius: 50%;
-              border: 1px solid #707070;
-            }
+             background: rgb(133, 170, 58);
+            color: #fff;
+            padding: 0 8px;
+            // &::before{
+            //   content: "";
+            //   display: inline-block;
+            //   width: 6px;
+            //   height: 6px;
+            //   border-radius: 50%;
+            //   border: 1px solid #707070;
+            // }
           }
         }
         &__link{

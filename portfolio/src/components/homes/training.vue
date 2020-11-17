@@ -12,13 +12,15 @@
         <h3 class="training__warp__stady__title">アニメーション勉強</h3>
        <ul class="training__warp__animationStady__box">
          <!-- item01 -->
-         <li v-for="item in items" :key="item.item" class="training__warp__animationStady__box__item">
-           <h4>{{item.item}}アニメーション</h4>
-           <div class="training__warp__animationStady__box__item__text">
+         <li v-for="trainingItem in trainingItems" :key="trainingItem.img" class="training__warp__animationStady__box__item">
+           <a v-bind:href="`http://click.ecc.ac.jp/ecc/tkida/portfolio/web/training/${trainingItem.link }`" target="_blank">
+           <h4>{{trainingItem.title}}</h4>
+           <div class="training__warp__animationStady__box__item__text" v-bind:style="{'background-image':'url(' + trainingItem.img + ')'}">
              <div class="training__warp__animationStady__box__item__text__screen">
-               <p>aaaaa</p>
+               <p>{{trainingItem.text}}</p>
              </div>
            </div>
+           </a>
          </li>
        </ul>
       </div>
@@ -30,24 +32,116 @@
 export default {
   data(){
     return{
-      items:[
-        {item:1},
-        {item:2},
-        {item:3},
-        {item:4},
-        {item:5},
-        {item:6},
-        {item:7},
-        {item:8},
-        {item:9},
-        {item:10},
+      trainingItems:[
+        {
+          title:"アコーディオンメニュー",
+          img:require("../../assets/img/accordion.png"),
+          text:"JavaScriptのアコーディオンメニュー",
+          link:"accordion"
+        },
+         {
+          title:"クリック切り替え",
+          img:require("../../assets/img/click.png"),
+          text:"JavaScriptで表示切り替え",
+          link:"click"
+        },
+         {
+          title:"ゲーム",
+          img:require("../../assets/img/game.png"),
+          text:"JavaScriptの練習style操作",
+          link:"game"
+        },
+         {
+          title:"ハンバーガーメニュー",
+          img:require("../../assets/img/Hamburger-menu.png"),
+          text:"JavaScriptとCSSで作成",
+          link:"Hamburger-menu"
+        },
+         {
+          title:"ホバーアニメーション01",
+          img:require("../../assets/img/hover01.png"),
+          text:"navのhoverアニメーション01",
+          link:"hover01"
+        },
+         {
+          title:"ホバーアニメーション02",
+          img:require("../../assets/img/hover02.png"),
+          text:"navのhoverアニメーション02",
+          link:"hover02"
+        },
+         {
+          title:"ホバーアニメーション03",
+          img:require("../../assets/img/hover03.png"),
+          text:"navのhoverアニメーション03",
+          link:"hover03"
+        },
+         {
+          title:"inputのホバーアニメーション",
+          img:require("../../assets/img/input-hover.png"),
+          text:"オシャレなinputのホバーアニメーション",
+          link:"input-hover"
+        },
+         {
+          title:"ローディングアニメーション",
+          img:require("../../assets/img/loading.png"),
+          text:"@keyframesアニメーション",
+          link:"loading"
+        },
+         {
+          title:"ページ内リンク",
+          img:require("../../assets/img/page-link.png"),
+          text:"JavaScriptのページ内リンク",
+          link:"page-link"
+        },
+         {
+          title:"ページ移動アニメーション",
+          img:require("../../assets/img/page-move.png"),
+          text:"JavaScriptでtransform制御、ページ移動",
+          link:"page-move"
+        },
+         {
+          title:"桜降るアニメーション",
+          img:require("../../assets/img/sakura.png"),
+          text:"pugとsassを使った桜降るアニメーション",
+          link:"sakura"
+        },
+         {
+          title:"スクロールアニメーション01",
+          img:require("../../assets/img/scroll-animetion01.png"),
+          text:"スクロールイベント、特定の座標に来たら出てくる",
+          link:"scroll-animetion01"
+        },
+         {
+          title:"スクロールアニメーション02",
+          img:require("../../assets/img/scroll-animetion02.png"),
+          text:"スクロールイベント、要素内の特定の座標に来たらフェードイン、フェードアウトする",
+          link:"scroll-animetion02"
+        },
+         {
+          title:"スライドショーアニメーション01",
+          img:require("../../assets/img/slide01.png"),
+          text:"JavaScriptで要素の生成と消去でスライドショー",
+          link:"slide01"
+        },
+         {
+          title:"スライドショーアニメーション02",
+          img:require("../../assets/img/slide02.png"),
+          text:"JavaScriptで親要素を動かすスライドショー",
+          link:"slide02"
+        },
+         {
+          title:"スライドショーアニメーション03",
+          img:require("../../assets/img/slide03.png"),
+          text:"JavaScriptで要素１つ１つ動かし制御するスライドショー",
+          link:"slide03"
+        },
+        
       ]
-      
     }
   },
-  components: {
-   
-  }
+   mounted(){
+    
+   }
 }
 </script>
 
@@ -65,6 +159,7 @@ export default {
           font-size: 24px;
         }
       }
+     
       &__animationStady{
         &__box{
           width: 100%;
@@ -79,20 +174,25 @@ export default {
             position: relative;
             list-style: none;
             margin-bottom: 40px;
+            a{
+              text-decoration: none;
+            }
             
             h4{
               width: 100%;
               height: 36px;
               font-size: 20px;
               text-align: center;
+              color: #a0a0a0;
+              
             }
             &__text{
               width: 100%;
               height: 188px;
-              background: grey;
               overflow: hidden;
-               &:hover > div{
-                  transform: translateY(0);
+              background-size: contain;
+              &:hover > div{
+                  transform: translateY(0%);
                 }
               &__screen{
                 width: 100%;
@@ -103,6 +203,7 @@ export default {
                 justify-content: center;
                 transform: translateY(-100%);
                 transition: 0.2s;
+                padding: 0 16px;
                 
                 p{
                   font-size: 20px;

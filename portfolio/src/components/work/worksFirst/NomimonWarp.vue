@@ -11,7 +11,7 @@
               ドリンク容器のポイ捨てが社会問題になっており、タピオカがSNSでブームになったのを機にさまざまな場所でプラスチック容器のゴミが問題になりました。<br>
               また、ゴミを捨てるにも、容器がゴミ箱に入らない、またはゴミ箱がどこにあるかわからないという問題から、結局ゴミを放置するという結果になっているそんな人達の為にゲームを楽しんでもらいながら容器をゴミ箱に捨ててもらうというサービスを考えました。
             </p>
-            <p  class="work__content__textWarp__category"><label for="">個人制作</label><label for="">個人制作</label><label for="">個人制作</label></p>
+            <p  class="work__content__textWarp__category"><label for="">グループ制作</label><label for="">１年後期</label><label for="">フロントエンド</label><label for="">受賞作品</label></p>
             <router-link to="/nomimon" class="work__content__textWarp__link">サイト詳細</router-link>
         </div>
     </div>
@@ -65,14 +65,20 @@ export default {
             margin-right: 8px;
             display: flex;
             align-items: center;
-            &::before{
-              content: "";
-              display: inline-block;
-              width: 6px;
-              height: 6px;
-              border-radius: 50%;
-              border: 1px solid #707070;
+            background: rgb(133, 170, 58);
+            color: #fff;
+            padding: 0 8px;
+            &:last-child{
+              background: rgb(209, 139, 10);
             }
+            // &::before{
+            //   content: "";
+            //   display: inline-block;
+            //   width: 6px;
+            //   height: 6px;
+            //   border-radius: 50%;
+            //   border: 1px solid #707070;
+            // }
           }
         }
         &__link{

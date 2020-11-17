@@ -8,6 +8,14 @@
 // import Home from './components/home.vue'
 // import test from './components/profileDetails/workDetails/test.vue'
 
+// const router = new Router({
+//   // routes: [...],
+//   scrollBehavior (to, from, savedPosition) {
+//     return{ x: 0, y: 0 }
+//     // 望みのポジションを返す
+//   }
+// })
+
 export default {
   // components: {
   //   Home,
@@ -15,7 +23,16 @@ export default {
     
   // },
   name: 'App',
- 
+  
+    scrollBehavior (to, from, savedPosition) {
+      if (savedPosition) {
+        return savedPosition
+      } else {
+        return { x: 0, y: 0 }
+      }
+    }
+
+
 }
 </script>
 

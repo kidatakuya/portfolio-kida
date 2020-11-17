@@ -10,7 +10,7 @@
             <p  class="work__content__textWarp__text">
               学校でわからないことがあっても、先生以外聞く人がいない。資格を取ろうと考えた時、どう勉強したら良いかわからない。そんな人が質問を投稿し、先輩とあって答えてもらう。先輩後輩との交流を増やし質問答えてもらうマッチング方の問題解決サービスです。
             </p>
-            <p  class="work__content__textWarp__category"><label for="">個人制作</label><label for="">個人制作</label><label for="">個人制作</label></p>
+            <p  class="work__content__textWarp__category"><label for="">グループ制作</label><label for="">１年</label><label for="">フロントエンド</label></p>
             <router-link to="/puzzle" class="work__content__textWarp__link link">サイト詳細</router-link>
         </div>
     </div>
@@ -64,14 +64,17 @@ export default {
             margin-right: 8px;
             display: flex;
             align-items: center;
-            &::before{
-              content: "";
-              display: inline-block;
-              width: 6px;
-              height: 6px;
-              border-radius: 50%;
-              border: 1px solid #707070;
-            }
+            background: rgb(133, 170, 58);
+            color: #fff;
+            padding: 0 8px;
+            // &::before{
+            //   content: "";
+            //   display: inline-block;
+            //   width: 6px;
+            //   height: 6px;
+            //   border-radius: 50%;
+            //   border: 1px solid #707070;
+            // }
           }
         }
         &__link{

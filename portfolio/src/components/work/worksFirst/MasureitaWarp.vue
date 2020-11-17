@@ -11,8 +11,8 @@
               この店は新しい形、筋肉のためのカフェです。<br>
               身体作りをしている方々に、より良いサービス、より良い空間、より良い料理提供を行なっています。高カロリーから低カロリー、高タンパクのメニューをたくさん用意しております。皆様のご来店を心よりお待ちしております。
             </p>
-            <p  class="work__content__textWarp__category"><label for="">個人制作</label><label for="">個人制作</label><label for="">個人制作</label></p>
-            <router-link to="/masureita" class="work__content__textWarp__link">サイト詳細</router-link>
+            <p  class="work__content__textWarp__category"><label for="">個人制作</label><label for="">１年前期</label></p>
+            <router-link @click="scrollBehavior" to="/masureita" class="work__content__textWarp__link">サイト詳細</router-link>
         </div>
     </div>
   </div>
@@ -20,6 +20,17 @@
 
 <script>
 export default {
+  computed:{
+       scrollBehavior (to, from, savedPosition) {
+        if (savedPosition) {
+          // return savedPosition
+          return { x: 0, y: 0 }
+        } else {
+          return { x: 0, y: 0 }
+        }
+      }
+    
+  }
   
  
 }
@@ -68,14 +79,17 @@ export default {
             margin-right: 8px;
             display: flex;
             align-items: center;
-            &::before{
-              content: "";
-              display: inline-block;
-              width: 6px;
-              height: 6px;
-              border-radius: 50%;
-              border: 1px solid #707070;
-            }
+            background: rgb(133, 170, 58);
+            color: #fff;
+            padding: 0 8px;
+            // &::before{
+            //   content: "";
+            //   display: inline-block;
+            //   width: 6px;
+            //   height: 6px;
+            //   border-radius: 50%;
+            //   border: 1px solid #707070;
+            // }
           }
         }
         &__link{

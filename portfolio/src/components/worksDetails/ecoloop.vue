@@ -105,7 +105,7 @@
     <section class="ecoloop__access">
         <ul class="ecoloop__access__navbox">
             <li class="ecoloop__access__navbox__nav">
-                <a href="#" target="_blank">
+                <a href="http://click.ecc.ac.jp/ecc/tkida/portfolio/web/works/ecoloop/" target="_blank">
                     <label for="">Web</label>
                     <p>サイトをみる</p>
                 </a>

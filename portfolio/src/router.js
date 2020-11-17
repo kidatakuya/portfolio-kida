@@ -23,5 +23,13 @@ export default new Router({
         {path:'/nomimatti',component:Nomimatti},
         {path:'/nomimon',component:Nomimon},
         {path:'/puzzle',component:Puzzle}
-    ]
+    ],
+    scrollBehavior (to, from, savedPosition) {
+        if (savedPosition) {
+          return savedPosition
+        } else {
+          return { x: 0, y: 0 }
+        }
+      }
+      
 })
