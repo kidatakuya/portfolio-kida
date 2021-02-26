@@ -261,6 +261,11 @@ export default {
                 p{
                     text-align: center;
                 }
+                .problembox,.overviewbox{
+                    h3{
+                        padding: 32px 0;
+                    }
+                }
                 &__category{
                     margin-bottom: 56px;
                      h3{

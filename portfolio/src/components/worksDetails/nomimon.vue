@@ -9,7 +9,7 @@
             <div class="ecoloop__content__top__production">
                 <p class="ecoloop__content__top__production__text"><label for="">制作時期</label>2019年10月〜</p>
                 <p class="ecoloop__content__top__production__text"><label for="">制作時間</label>40時間</p>
-                <p class="ecoloop__content__top__production__text"><label for="">制作</label>個人制作</p>
+                <p class="ecoloop__content__top__production__text"><label for="">制作</label>グループ制作</p>
                 <p class="ecoloop__content__top__production__text"><label for="">担当箇所</label>フロントエンド</p>
                 <p class="ecoloop__content__top__production__text"><label for="">使用言語</label>HTML、CSS、JavaScript、SASS</p>
                 <p class="ecoloop__content__top__production__text"><label for="">使用ソフト</label>XD、Photoshop、Illustrator</p>
@@ -21,7 +21,7 @@
         <section class="ecoloop__content__backWarp">
             <h2 class="ecoloop__content__backWarp__title"><span>制作背景</span></h2>
             <div class="ecoloop__content__backWarp__concepttbox">
-                <div class="ecoloop__content__backWarp__concepttbox__theme">
+                <!-- <div class="ecoloop__content__backWarp__concepttbox__theme">
                     <label for="">「テーマ」</label>
                     <p>「小説」</p>
                 </div>
@@ -32,7 +32,7 @@
                 <div class="ecoloop__content__backWarp__concepttbox__theme">
                     <label for="">「キーワード」</label>
                     <p>「文字」「シンプル」「わかりやすく」</p>
-                </div>
+                </div> -->
             </div>
             <section class="ecoloop__content__backWarp__planning">
                  <section class="ecoloop__content__backWarp__planning__category overviewbox">

@@ -11,7 +11,7 @@
                 <p class="ecoloop__content__top__production__text"><label for="">制作時間</label>40時間</p>
                 <p class="ecoloop__content__top__production__text"><label for="">制作</label>個人制作</p>
                 <p class="ecoloop__content__top__production__text"><label for="">担当箇所</label>すべて</p>
-                <p class="ecoloop__content__top__production__text"><label for="">使用言語</label>HTML、CSS、JavaScript、SASS</p>
+                <p class="ecoloop__content__top__production__text"><label for="">使用言語</label>HTML、CSS、JavaScript、SASS、PHP</p>
                 <p class="ecoloop__content__top__production__text"><label for="">使用ソフト</label>XD、Photoshop、Illustrator</p>
             </div>
             <div class="ecoloop__content__top__photo">
@@ -41,30 +41,29 @@
                         このサービスは飲みに行くのが好きで、飲みに行きたいけど予定が合わない。上京したばかりで飲みに行く友達が近くにいない。そんな人同士を引き合わせるマッチングアプリです。
                     </p>
                 </section>
-                <section class="ecoloop__content__backWarp__planning__category problembox">
-                    <div  class="ecoloop__content__backWarp__planning__category__inner problembox__inner">
+                
+                    <section class="ecoloop__content__backWarp__planning__category problembox">
                         <h3><span>- 現状問題 -</span></h3>
                         <p>
                             誰かと飲みに行きたいけど、知人と予定が合わない。<br>
                             上京して、飲みに行く知人がいない。
                         </p>
-                    </div>
-                    <div class="ecoloop__content__backWarp__planning__category__inner problembox__inner">
+                    </section>
+                    <section class="ecoloop__content__backWarp__planning__category problembox">
                         <h3><span>- 解決案 -</span></h3>
                         <p>
                             複数人だと話しにくい人がいる可能性があるので、刺しのみ用のマッチングサービスにする。
                         </p>
-                    </div>
+                    </section>
                     
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category purposebox">
-                    <div class="ecoloop__content__backWarp__planning__category__inner purposebox__inner">
+                
+                    <section class="ecoloop__content__backWarp__planning__category purposebox">
                         <h3><span>- 目的 -</span></h3>
                         <p>
                             刺し飲み仲間を探す。
                         </p>
-                    </div>
-                    <div class="ecoloop__content__backWarp__planning__category__inner purposebox__inner">
+                    </section>
+                    <section class="ecoloop__content__backWarp__planning__category purposebox">
                         <h3><span>- メリット -</span></h3>
                         <h4>ユーザー</h4>
                         <p>
@@ -78,31 +77,27 @@
                         <p>
                             飲食業界の情報が入る。
                         </p>
-                    </div>
+                    </section>
                     
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category profitbox">
-                    <div class="ecoloop__content__backWarp__planning__category__inner profitbox__inner">
+               
+                    <section class="ecoloop__content__backWarp__planning__category profitbox">
                         <h3><span>- 利益 -</span></h3>
                         <p>
                             ・サービス使用で得た情報を提供し、情報料をもらう。
                             ・サービス内に広告をつけ、広告収入を得る。
                             ・飲食店と提携して紹介料をもらう。
                         </p>
-                    </div>
-                    <div class="ecoloop__content__backWarp__planning__category__inner profitbox__inner">
+                    </section>
+                    <section class="ecoloop__content__backWarp__planning__category profitbox">
                         <h3><span>- 導線 -</span></h3>
                         <p>
                             ・提携している飲食店のインスタグラム、ツイッター、などのSNS で告知してもらう。<br>
                             ・飲食の店舗でポスター、チラシなどで宣伝してもらう。
                         </p>
-                    </div>
+                    </section>
                     
                     
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category leadbox">
-                    
-                </section>
+                
                 <section class="ecoloop__content__backWarp__planning__category functionbox">
                     <h3><span>- 機能 -</span></h3>
                     <p>
@@ -232,21 +227,23 @@ export default {
             }
             &__planning{
                 margin-top: 124px;
+                .problembox{
+                    text-align: center;
+                }
                 &__category{
                     margin-bottom: 56px;
-                    display: flex;
-                    justify-content: space-between;
-                    flex-wrap: wrap;
-                    
-                    &__inner{
-                        width: 45%;
+                    // display: flex;
+                    // justify-content: cent;
+                    // flex-wrap: wrap;
+                    margin: 0 auto 56px;
+                        width: 50%;
                         h4{
                             font-size: 18px;
                             text-align: center;
                              color: #4D4D4D;
                              padding: 20px;
                         }
-                    }
+                    
                      h3{
                     text-align: center;
                     font-size: 24px;

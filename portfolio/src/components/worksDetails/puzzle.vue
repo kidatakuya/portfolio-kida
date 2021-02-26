@@ -9,13 +9,13 @@
             <div class="ecoloop__content__top__production">
                 <p class="ecoloop__content__top__production__text"><label for="">制作時期</label>2019年10月〜</p>
                 <p class="ecoloop__content__top__production__text"><label for="">制作時間</label>40時間</p>
-                <p class="ecoloop__content__top__production__text"><label for="">制作</label>個人制作</p>
+                <p class="ecoloop__content__top__production__text"><label for="">制作</label>グループ制作</p>
                 <p class="ecoloop__content__top__production__text"><label for="">担当箇所</label>フロントエンド</p>
                 <p class="ecoloop__content__top__production__text"><label for="">使用言語</label>HTML、CSS、JavaScript、SASS</p>
                 <p class="ecoloop__content__top__production__text"><label for="">使用ソフト</label>XD、Photoshop、Illustrator</p>
             </div>
             <div class="ecoloop__content__top__photo">
-                <img src="../../assets/img/puzzle.png" alt="">
+                <img src="../../assets/img/puzzle.png" alt="puzzleイメージ">
             </div>
         </div>
         <section class="ecoloop__content__backWarp">
@@ -41,38 +41,38 @@
                          学校でわからないことがあっても、先生以外聞く人がいない。資格を取ろうと考えた時、どう勉強したら良いかわからない。そんな人が質問を投稿し、先輩とあって答えてもらう。<br>先輩後輩との交流を増やし質問答えてもらうマッチング方の問題解決サービスです。
                     </p>
                 </section>
-                <section class="ecoloop__content__backWarp__planning__category problembox">
-                    <div class="ecoloop__content__backWarp__planning__category__inner problembox__inner">
+                
+                    <section class="ecoloop__content__backWarp__planning__category problembox">
                         <h3><span>現状問題</span></h3>
                         <p>
                             ・質問がしたいけど、誰に聞けばいいかわからないし、質問する機会がない。<br>
                             ・先輩が何が得意でどういう技術を持ってるかわからない。
                         </p>
-                    </div>
-                    <div class="ecoloop__content__backWarp__planning__category__inner problembox__inner">
+                    </section>
+                    <section class="ecoloop__content__backWarp__planning__category problembox">
                         <h3><span>解決案</span></h3>
                         <p>
                             事前に何が得意か登録でき、質問投稿や実際にあって質問できるような、学内のマッチング方問題解決サービスを作る。
                         </p>
-                    </div>
-                </section>
-                <section class="ecoloop__content__backWarp__planning__category purposebox">
-                    <div class="ecoloop__content__backWarp__planning__category__inner purposebox__inner">
+                    </section>
+                
+                
+                    <section class="ecoloop__content__backWarp__planning__category purposebox">
                         <h3><span>目的</span></h3>
                         <p>
                             ・疑問点の問題解決<br>
                             ・先輩との交流の機会を作る
                         </p>
-                    </div>
-                    <div class="ecoloop__content__backWarp__planning__category__inner purposebox__inner">
+                    </section>
+                    <section class="ecoloop__content__backWarp__planning__category purposebox">
                         <h3><span>メリット</span></h3>
                         <p>
                             ・先輩の得意なことがわかる<br>
                             ・先輩と交流はできる。<br>
                             ・問題が解決する。
                         </p>
-                    </div>
-                </section>
+                    </section>
+                
             </section>
         </section>
     </section>
@@ -193,15 +193,11 @@ export default {
                 &__category{
                     margin-bottom: 56px;
                     position: relative;
-                    display: flex;
-                    justify-content: space-between;
-                    flex-wrap: wrap;
-                    &__inner{
-                        width: 45%;
-                        display: flex;
-                        justify-content: center;
-                        flex-wrap: wrap;
-                    }
+                    text-align: center;
+                    // display: flex;
+                    // justify-content: center;
+                    // flex-wrap: wrap;
+                    
                      h3{
                     text-align: center;
                     font-size: 24px;
