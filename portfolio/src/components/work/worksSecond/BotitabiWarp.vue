@@ -11,7 +11,7 @@
               このサービスは飲みに行くのが好きで、飲みに行きたいけど予定が合わない。上京したばかりで飲みに行く友達が近くにいない。そんな人同士を引き合わせるマッチングアプリです。
             </p>
             <p  class="work__content__textWarp__category"><label for="">グループ制作</label><label for="">２年前期</label></p>
-            <router-link to="/botitavi" class="work__content__textWarp__link">サイト詳細</router-link>
+            <router-link to="/botitabi" class="work__content__textWarp__link">サイト詳細</router-link>
         </div>
     </div>
   </div>
