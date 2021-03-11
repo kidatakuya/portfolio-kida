@@ -1,15 +1,18 @@
 <template>
   <div id="">
     <NomimattiWarp></NomimattiWarp>
+    <BotitabiWarp></BotitabiWarp>
   </div>
 </template>
 
 <script>
-import NomimattiWarp from './worksSecond/NomimattiWarp.vue'
+import NomimattiWarp from './worksSecond/NomimattiWarp'
+import BotitabiWarp from './worksSecond/BotitabiWarp'
 export default {
   
   components: {
-    NomimattiWarp
+    NomimattiWarp,
+    BotitabiWarp
   }
 }
 </script>

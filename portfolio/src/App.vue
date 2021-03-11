@@ -38,10 +38,10 @@ export default {
 
 <style lang="scss">
 @import "./assets/css/ress";
-// body{
-//   scroll-snap-type: y mandatory;
-//   overflow: auto;
-// }
+body{
+  scroll-snap-type: y mandatory;
+  overflow: auto;
+}
 
 #app {
    font-size: 62.5%;

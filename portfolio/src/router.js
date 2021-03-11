@@ -8,6 +8,7 @@ import Momory from './components/worksDetails/momory.vue';
 import Nomimatti from './components/worksDetails/nomimatti.vue';
 import Nomimon from './components/worksDetails/nomimon.vue';
 import Puzzle from './components/worksDetails/puzzle.vue';
+import Botitabi from './components/worksDetails/puzzle.vue';
 
 
 Vue.use(Router)
@@ -22,7 +23,8 @@ export default new Router({
         {path:'/momory',component:Momory},
         {path:'/nomimatti',component:Nomimatti},
         {path:'/nomimon',component:Nomimon},
-        {path:'/puzzle',component:Puzzle}
+        {path:'/puzzle',component:Puzzle},
+        {path:'/botitabi',component:Botitabi}
     ],
     scrollBehavior (to, from, savedPosition) {
         if (savedPosition) {
