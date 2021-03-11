@@ -6,9 +6,11 @@
             <img src="../../../assets/img/nomimatti.png" alt="nomimatti-img">
         </div>
         <div class="work__content__textWarp">
-            <h4  class="work__content__textWarp__subTitle">旅仲間探し</h4>
+            <h4  class="work__content__textWarp__subTitle">旅行プラン共有</h4>
             <p  class="work__content__textWarp__text">
-              このサービスは飲みに行くのが好きで、飲みに行きたいけど予定が合わない。上京したばかりで飲みに行く友達が近くにいない。そんな人同士を引き合わせるマッチングアプリです。
+              このサービスで旅行プランを共有することで、目的地は決まっているが具体的にどこに行くか決まっていない人のコースの参考に使う事ができます。
+              このサービスには、地図機能があり、有名では無いが、良いと思った場所に穴場ピンを立てる事ができ、投稿をどこが穴場なのか見ることのできるようになっています。
+              旅行すると、バッチがもらえるようになっており、バッチの数でどのくらい旅行しているかわかるようになっています。
             </p>
             <p  class="work__content__textWarp__category"><label for="">グループ制作</label><label for="">２年前期</label></p>
             <router-link to="/botitabi" class="work__content__textWarp__link">サイト詳細</router-link>

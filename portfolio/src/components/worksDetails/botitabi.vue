@@ -1,136 +1,131 @@
 <template>
-  <div id="" class="ecoloop">
+  <div id="" class="botitabi">
     <DetailsHeader></DetailsHeader>
-    <section class="ecoloop__content">
-        <div class="ecoloop__content__top">
-            <div class="ecoloop__content__top__titlebox titlebox">
-                <h1 class="ecoloop__content__top__titlebox_title title"><span>nomimatti</span></h1>
+    <section class="botitabi__content">
+        <div class="botitabi__content__top">
+            <div class="botitabi__content__top__titlebox titlebox">
+                <h1 class="botitabi__content__top__titlebox_title title"><span>ぼちたび</span></h1>
             </div>
-            <div class="ecoloop__content__top__production">
-                <p class="ecoloop__content__top__production__text"><label for="">制作時期</label>2019年10月〜</p>
-                <p class="ecoloop__content__top__production__text"><label for="">制作時間</label>40時間</p>
-                <p class="ecoloop__content__top__production__text"><label for="">制作</label>個人制作</p>
-                <p class="ecoloop__content__top__production__text"><label for="">担当箇所</label>すべて</p>
-                <p class="ecoloop__content__top__production__text"><label for="">使用言語</label>HTML、CSS、JavaScript、SASS、PHP</p>
-                <p class="ecoloop__content__top__production__text"><label for="">使用ソフト</label>XD、Photoshop、Illustrator</p>
+            <div class="botitabi__content__top__production">
+                <p class="botitabi__content__top__production__text"><label for="">制作時期</label>2020年10月〜</p>
+                <p class="botitabi__content__top__production__text"><label for="">制作時間</label>40時間</p>
+                <p class="botitabi__content__top__production__text"><label for="">制作</label>グループ制作</p>
+                <p class="botitabi__content__top__production__text"><label for="">担当箇所</label>フロントエンド、バックエンド</p>
+                <p class="botitabi__content__top__production__text"><label for="">使用言語</label>HTML、CSS、JavaScript、SASS、PHP</p>
+                <p class="botitabi__content__top__production__text"><label for="">使用ソフト</label>XD、Photoshop、Illustrator</p>
             </div>
-            <div class="ecoloop__content__top__photo">
+            <div class="botitabi__content__top__photo">
                 <img src="../../assets/img/nomimatti.png" alt="">
             </div>
         </div>
-        <section class="ecoloop__content__backWarp">
-            <h2 class="ecoloop__content__backWarp__title"><span>制作背景</span></h2>
-            <div class="ecoloop__content__backWarp__concepttbox">
-                <div class="ecoloop__content__backWarp__concepttbox__theme">
+        <section class="botitabi__content__backWarp">
+            <h2 class="botitabi__content__backWarp__title"><span>制作背景</span></h2>
+            <div class="botitabi__content__backWarp__concepttbox">
+                <div class="botitabi__content__backWarp__concepttbox__theme">
                     <label for="">「テーマ」</label>
-                    <p>「飲み仲間探し」</p>
+                    <p>「一人旅行に彩りを」</p>
                 </div>
-                <div class="ecoloop__content__backWarp__concepttbox__theme">
+                <div class="botitabi__content__backWarp__concepttbox__theme">
                     <label for="">「コンセプト」</label>
-                    <p>「飲み仲間探し」</p>
+                    <p>「旅を楽しく」</p>
                 </div>
-                <div class="ecoloop__content__backWarp__concepttbox__theme">
+                <div class="botitabi__content__backWarp__concepttbox__theme">
                     <label for="">「キーワード」</label>
-                    <p>「刺しのみ」「誰でも」「マッチング」</p>
+                    <p>「旅行」「共有」「穴場」</p>
                 </div>
             </div>
-            <section class="ecoloop__content__backWarp__planning">
-                <section class="ecoloop__content__backWarp__planning__category overviewbox">
+            <section class="botitabi__content__backWarp__planning">
+                <section class="botitabi__content__backWarp__planning__category overviewbox">
                     <h3><span>- 概要 -</span></h3>
                     <p>
-                        このサービスは飲みに行くのが好きで、飲みに行きたいけど予定が合わない。上京したばかりで飲みに行く友達が近くにいない。そんな人同士を引き合わせるマッチングアプリです。
+                        近年新型ウイルス発生により、各地の飲食店や観光産業の需要が減っています。<br>
+                        しかし、年々ひとり旅の割合が増えていてコロナ禍の影響で複数人での旅行が危険視されている今、より、ひとり旅をする人が増えるのではないかと考え、旅行プラン共有SNSを作りました。
+                        このサービスで旅行プランを共有することで、目的地は決まっているが具体的にどこに行くか決まっていない人のコースの参考に使う事ができます。
+                        このサービスには、地図機能があり、有名では無いが、良いと思った場所に穴場ピンを立てる事ができ、投稿をどこが穴場なのか見ることのできるようになっています。
+                        旅行すると、バッチがもらえるようになっており、バッチの数でどのくらい旅行しているかわかるようになっています。
                     </p>
                 </section>
                 
-                    <section class="ecoloop__content__backWarp__planning__category problembox">
+                    <section class="botitabi__content__backWarp__planning__category problembox">
                         <h3><span>- 現状問題 -</span></h3>
                         <p>
-                            誰かと飲みに行きたいけど、知人と予定が合わない。<br>
-                            上京して、飲みに行く知人がいない。
+                            コロナウイルスの影響で複数人の外出が減っている。<br>
+                            旅行業界の売り上げが減っている。
                         </p>
                     </section>
-                    <section class="ecoloop__content__backWarp__planning__category problembox">
+                    <section class="botitabi__content__backWarp__planning__category problembox">
                         <h3><span>- 解決案 -</span></h3>
                         <p>
-                            複数人だと話しにくい人がいる可能性があるので、刺しのみ用のマッチングサービスにする。
+                            一人での旅行を増やして行けるようなサービスの開発。
                         </p>
                     </section>
                     
                 
-                    <section class="ecoloop__content__backWarp__planning__category purposebox">
+                    <section class="botitabi__content__backWarp__planning__category purposebox">
                         <h3><span>- 目的 -</span></h3>
                         <p>
-                            刺し飲み仲間を探す。
+                            一人旅行者を増やし、旅行業界、飲食店の売り上げの増加。
                         </p>
                     </section>
-                    <section class="ecoloop__content__backWarp__planning__category purposebox">
+                    <section class="botitabi__content__backWarp__planning__category purposebox">
                         <h3><span>- メリット -</span></h3>
-                        <h4>ユーザー</h4>
+                        <h4>投稿ユーザー</h4>
                         <p>
-                            飲み仲間を作ることができる。
+                            ・画像付きで旅行計画の備忘録を付けられる。
+                            ・承認欲求を満たせる。
                         </p>
-                        <h4>店舗</h4>
+                        <h4>見るユーザー</h4>
                         <p>
-                            自分の店舗に来ているお客様情報が手に入る。
+                            ・ひとり旅のハードルが下がる。
+                            ・ツアーで回れないような穴場を知れる。
+                            ・ひとり旅の計画を自分で立てなくてもいい（投稿のプラン通りに回る場合）。
                         </p>
-                        <h4>自社</h4>
-                        <p>
-                            飲食業界の情報が入る。
-                        </p>
+                        
                     </section>
                     
-               
-                    <section class="ecoloop__content__backWarp__planning__category profitbox">
-                        <h3><span>- 利益 -</span></h3>
-                        <p>
-                            ・サービス使用で得た情報を提供し、情報料をもらう。
-                            ・サービス内に広告をつけ、広告収入を得る。
-                            ・飲食店と提携して紹介料をもらう。
-                        </p>
-                    </section>
-                    <section class="ecoloop__content__backWarp__planning__category profitbox">
+                    <section class="botitabi__content__backWarp__planning__category profitbox">
                         <h3><span>- 導線 -</span></h3>
                         <p>
-                            ・提携している飲食店のインスタグラム、ツイッター、などのSNS で告知してもらう。<br>
-                            ・飲食の店舗でポスター、チラシなどで宣伝してもらう。
+                            ・インスタグラム、ツイッター、などのSNS で告知してもらう。<br>
                         </p>
                     </section>
                     
                     
-                
-                <section class="ecoloop__content__backWarp__planning__category functionbox">
+                <section class="botitabi__content__backWarp__planning__category functionbox">
                     <h3><span>- 機能 -</span></h3>
                     <p>
                         ・アカウント登録<br>
-                        ・フォロー（検索機能はなく、マッチングした人飲みフォロー可能）<br>
-                        ・地図（店の位置情報）<br>
-                        ・飲食店を巻き込む。<br>
-                        ・投稿（マッチング相手集め）<br>
-                        ・投稿絞り込み（地域のみ、フォロワーのみ、性別）<br>
-                        ・巻き込んでいる店舗のイベント情報掲載、通知、ウェルカムボードに掲載する。<br>
-                        （写真を＃( ハッシュタグ) つきでアップしたら100 円引き！）<br>
-                        （お店のSNS をフォローで、ドリンク一杯サービス！）<br>
-                        ・ペイと同期（自動割り勘）<br>
+                        ・プロフィール編集<br>
+                        ・フォロー<br>
+                        ・地図<br>
+                        ・旅行プランの投稿<br>
+                        ・投稿絞り込み（目的地、旅行に数、旅行目的、ランキング、いいね数、タイムライン）<br>
                         ・ランク機能。<br>
-                        ・アプリ内で予約（マッチングで自動予約、店行かないと500 円の席料がお互いに発生片方がする来なかった場合、1000 円が来なかった方に発生する。）
                     </p>
+                </section>
+                <section class="botitabi__content__backWarp__planning__category functionbox">
+                    <h3><span>- プレゼンテーション -</span></h3>
+                    <video src="@/assets/video/botitabi-present.mp4" controls></video>
                 </section>
             </section>
         </section>
     </section>
-    <section class="ecoloop__access">
-        <ul class="ecoloop__access__navbox">
+    <section class="botitabi__access">
+        <ul class="botitabi__access__navbox">
             
-            <li class="ecoloop__access__navbox__nav">
-                <a href="http://click.ecc.ac.jp/ecc/tkida/portfolio/web/works/Nomimatti/" target="_blank">
+            <li class="botitabi__access__navbox__nav">
+                <a href="http://click.ecc.ac.jp/ecc/tkida/botitabi/" target="_blank">
                     <label for="">Mobile</label>
                     <p>サイトを見る</p>
                 </a>
             </li>
+            <li class="botitabi__access__navbox__nav">
+                <a href="http://click.ecc.ac.jp/ecc/tkida/botitabi-LP/" target="_blank">
+                    <label for="">Web</label>
+                    <p>サイトを見る</p>
+                </a>
+            </li>
         </ul>
-            <a href=""></a>
-            <a href=""></a>
-        
     </section>
 <Footer></Footer>
   </div>
@@ -149,7 +144,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .ecoloop{
+  .botitabi{
       padding: 80px 0 0 0 ;
       &__content{
           width: 78%;
@@ -255,6 +250,12 @@ export default {
                         font-size: 16px;
                         color: #A0A0A0;
                     }
+                    video{
+                        width: 100%;
+                    }
+                }
+                .overviewbox{
+                    width: 80%;
                 }
                 .purposebox{
                     text-align: center;

@@ -214,13 +214,8 @@ export default {
                     font-size: 16px;
                     color: #A0A0A0;
                     display: inline-block;
-                    width: auto;
-                   
-                    
+                    width: auto;  
                 }
-                }
-                .problembox{
-
                 }
                 .overviewbox{
                     p{

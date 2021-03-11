@@ -8,7 +8,7 @@ import Momory from './components/worksDetails/momory.vue';
 import Nomimatti from './components/worksDetails/nomimatti.vue';
 import Nomimon from './components/worksDetails/nomimon.vue';
 import Puzzle from './components/worksDetails/puzzle.vue';
-import Botitabi from './components/worksDetails/puzzle.vue';
+import Botitabi from './components/worksDetails/botitabi.vue';
 
 
 Vue.use(Router)
