@@ -5,8 +5,8 @@
     </div>
     <div class="training__warp">
       <div class="training__warp__stady">
-        <h3 class="training__warp__stady__title">vue勉強</h3>
-        <p></p>
+        <h3 class="training__warp__stady__title">React勉強</h3>
+        <a href="https://github.com/kidatakuya/Udemy-React-Redux-training" target="_blank">https://github.com/kidatakuya/Udemy-React-Redux-training</a>
       </div>
       <div class="training__warp__animationStady">
         <h3 class="training__warp__stady__title">アニメーション勉強</h3>
@@ -154,9 +154,18 @@ export default {
       margin: 40px auto;
       &__stady{
         text-align: center;
+        margin-bottom: 24px;
          &__title{
           text-align: center;
           font-size: 24px;
+        }
+        a{
+          font-size: 18px;
+          color: #a0a0a0;
+          transition: 0.3s;
+          &:hover{
+            color: #3c3c3c;
+          }
         }
       }
      

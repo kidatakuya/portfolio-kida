@@ -15,7 +15,7 @@
                 <p class="botitabi__content__top__production__text"><label for="">使用ソフト</label>XD、Photoshop、Illustrator</p>
             </div>
             <div class="botitabi__content__top__photo">
-                <img src="../../assets/img/nomimatti.png" alt="">
+                <img src="../../assets/img/botitabi.png" alt="botitabi-img">
             </div>
         </div>
         <section class="botitabi__content__backWarp">

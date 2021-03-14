@@ -3,7 +3,7 @@
     <h3 class="work__title">~ ぼちたび ~</h3>
     <div class="work__content">
         <div class="work__content__img">
-            <img src="../../../assets/img/nomimatti.png" alt="nomimatti-img">
+            <img src="../../../assets/img/botitabi.png" alt="botitabi-img">
         </div>
         <div class="work__content__textWarp">
             <h4  class="work__content__textWarp__subTitle">旅行プラン共有</h4>
@@ -12,7 +12,7 @@
               このサービスには、地図機能があり、有名では無いが、良いと思った場所に穴場ピンを立てる事ができ、投稿をどこが穴場なのか見ることのできるようになっています。
               旅行すると、バッチがもらえるようになっており、バッチの数でどのくらい旅行しているかわかるようになっています。
             </p>
-            <p  class="work__content__textWarp__category"><label for="">グループ制作</label><label for="">２年前期</label></p>
+            <p  class="work__content__textWarp__category"><label for="">グループ制作</label><label for="">２年後期</label></p>
             <router-link to="/botitabi" class="work__content__textWarp__link">サイト詳細</router-link>
         </div>
     </div>
