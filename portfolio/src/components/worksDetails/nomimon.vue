@@ -1,41 +1,29 @@
 <template>
-  <div id="" class="ecoloop">
+  <div id="" class="nomimon">
     <DetailsHeader></DetailsHeader>
-    <section class="ecoloop__content">
-        <div class="ecoloop__content__top">
-            <div class="ecoloop__content__top__titlebox titlebox">
-                <h1 class="ecoloop__content__top__titlebox_title title"><span>のみもん</span></h1>
+    <section class="nomimon__content">
+        <div class="nomimon__content__top">
+            <div class="nomimon__content__top__titlebox titlebox">
+                <h1 class="nomimon__content__top__titlebox_title title"><span>のみもん</span></h1>
             </div>
-            <div class="ecoloop__content__top__production">
-                <p class="ecoloop__content__top__production__text"><label for="">制作時期</label>2019年10月〜</p>
-                <p class="ecoloop__content__top__production__text"><label for="">制作時間</label>40時間</p>
-                <p class="ecoloop__content__top__production__text"><label for="">制作</label>グループ制作</p>
-                <p class="ecoloop__content__top__production__text"><label for="">担当箇所</label>フロントエンド</p>
-                <p class="ecoloop__content__top__production__text"><label for="">使用言語</label>HTML、CSS、JavaScript、SASS</p>
-                <p class="ecoloop__content__top__production__text"><label for="">使用ソフト</label>XD、Photoshop、Illustrator</p>
+            <div class="nomimon__content__top__production">
+                <p class="nomimon__content__top__production__text"><label for="">制作時期</label>2019年10月〜</p>
+                <p class="nomimon__content__top__production__text"><label for="">制作時間</label>40時間</p>
+                <p class="nomimon__content__top__production__text"><label for="">制作</label>グループ制作</p>
+                <p class="nomimon__content__top__production__text"><label for="">担当箇所</label>フロントエンド</p>
+                <p class="nomimon__content__top__production__text"><label for="">使用言語</label>HTML、CSS、JavaScript、SASS</p>
+                <p class="nomimon__content__top__production__text"><label for="">使用ソフト</label>XD、Photoshop、Illustrator</p>
             </div>
-            <div class="ecoloop__content__top__photo">
+            <div class="nomimon__content__top__photo">
                 <img src="../../assets/img/nomimon.png" alt="">
             </div>
         </div>
-        <section class="ecoloop__content__backWarp">
-            <h2 class="ecoloop__content__backWarp__title"><span>制作背景</span></h2>
-            <div class="ecoloop__content__backWarp__concepttbox">
-                <!-- <div class="ecoloop__content__backWarp__concepttbox__theme">
-                    <label for="">「テーマ」</label>
-                    <p>「小説」</p>
-                </div>
-                <div class="ecoloop__content__backWarp__concepttbox__theme">
-                    <label for="">「コンセプト」</label>
-                    <p>「文字で読ませるデザイン」</p>
-                </div>
-                <div class="ecoloop__content__backWarp__concepttbox__theme">
-                    <label for="">「キーワード」</label>
-                    <p>「文字」「シンプル」「わかりやすく」</p>
-                </div> -->
+        <section class="nomimon__content__backWarp">
+            <h2 class="nomimon__content__backWarp__title"><span>制作背景</span></h2>
+            <div class="nomimon__content__backWarp__concepttbox">
             </div>
-            <section class="ecoloop__content__backWarp__planning">
-                 <section class="ecoloop__content__backWarp__planning__category overviewbox">
+            <section class="nomimon__content__backWarp__planning">
+                 <section class="nomimon__content__backWarp__planning__category overviewbox">
                     <h3><span>- 概要 -</span></h3>
                     <p class="overviewbox__mainText">
                         のみもんとは、カフェなどでドリンクを買うついでにQRコードを読み込み、キャラクターを育てるゲームです。<br>
@@ -78,7 +66,7 @@
                         さまざまなキャラクターを育成し、コンプリートしよう！
                     </p>
                 </section>
-                <section class="ecoloop__content__backWarp__planning__category problembox">
+                <section class="nomimon__content__backWarp__planning__category problembox">
                     <h3><span>- 現状問題 -</span></h3>
                     <p class="problembox__subText emphasis">
                         プラスチック容器のポイ捨てが社会問題になっている。
@@ -88,31 +76,31 @@
                        ゴミ箱がいっぱいでゴミが入らない。
                     </p>
                 </section>
-                <section class="ecoloop__content__backWarp__planning__category solutionbox">
+                <section class="nomimon__content__backWarp__planning__category solutionbox">
                     <h3><span>- 解決案 -</span></h3>
                     <p class="solutionbox__subText emphasis">
                         ゴミ箱の場所が分かり、楽しくゴミを捨てるサービスを作る。
                     </p>
                 </section>
-                <section class="ecoloop__content__backWarp__planning__category purposebox">
+                <section class="nomimon__content__backWarp__planning__category purposebox">
                     <h3><span>- 目的 -</span></h3>
                     <p class="purposebox__subText emphasis">
                         プラスチックゴミのポイ捨てをなくし、街をきれいにする。
                     </p>
                 </section>
-                <section class="ecoloop__content__backWarp__planning__category meritbox">
+                <section class="nomimon__content__backWarp__planning__category meritbox">
                     <h3><span>- メリット -</span></h3>
                     <p class="meritbox__subText emphasis">
                         ゲームをしながら、街をきれいにすることができる。
                     </p>
                 </section>
-                <section class="ecoloop__content__backWarp__planning__category profitbox">
+                <section class="nomimon__content__backWarp__planning__category profitbox">
                     <h3><span>- 利益 -</span></h3>
                     <p class="profitbox__subText emphasis">
                         オリジナルアイテムを作った店舗からの製作費<br>
                     </p>
                 </section>
-                <section class="ecoloop__content__backWarp__planning__category leadbox">
+                <section class="nomimon__content__backWarp__planning__category leadbox">
                     <h3><span>- 導線 -</span></h3>
                     <p class="leadbox__subText emphasis">
                         提携店舗で告知してもらう<br>
@@ -122,17 +110,21 @@
             </section>
         </section>
     </section>
-    <section class="ecoloop__access">
-        <ul class="ecoloop__access__navbox">
-            <li class="ecoloop__access__navbox__nav">
-                <a href="http://click.ecc.ac.jp/ecc/tkida/portfolio/web/works/nomimon/start.html" target="_blank">
+    <section class="nomimon__access">
+        <ul class="nomimon__access__navbox">
+            <li class="nomimon__access__navbox__nav">
+                <a href="http://click.ecc.ac.jp/ecc/tkida/portfolio/web/works/nomimon/" target="_blank">
                     <label for="">Mobile</label>
                     <p>サイトを見る</p>
                 </a>
             </li>
+             <li class="nomimon__access__navbox__nav">
+                <a href="https://github.com/kidatakuya/nomimon" target="_blank">
+                    <label for="">GitHub</label>
+                    <p>コード見る</p>
+                </a>
+            </li>
         </ul>
-            <a href=""></a>
-            <a href=""></a>
         
     </section>
 <Footer></Footer>
@@ -152,7 +144,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .ecoloop{
+  .nomimon{
       padding: 80px 0 0 0 ;
       &__content{
           width: 78%;
@@ -313,15 +305,25 @@ export default {
                 list-style: none;
                 width: 192px;
                 height: 64px;
+                 
                 a{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    cursor: pointer;
                     font-size: 16px;
                      text-decoration: none;
                      color: #FFF;
                      text-align: center;
+                     transition: 0.3s;
                     label{
                         display: block;
                         width: 100%;
-                        text-align: center; 
+                        text-align: center;
+                        cursor: pointer; 
+                    }
+                     &:hover{
+                        opacity: 0.5;
                     }
                 }
             }

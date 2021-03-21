@@ -1,41 +1,41 @@
 <template>
-  <div id="" class="ecoloop">
+  <div id="" class="masureita">
     <DetailsHeader></DetailsHeader>
-    <section class="ecoloop__content">
-        <div class="ecoloop__content__top">
-            <div class="ecoloop__content__top__titlebox titlebox">
-                <h1 class="ecoloop__content__top__titlebox_title title"><span>喫茶マスリータ</span></h1>
+    <section class="masureita__content">
+        <div class="masureita__content__top">
+            <div class="masureita__content__top__titlebox titlebox">
+                <h1 class="masureita__content__top__titlebox_title title"><span>喫茶マスリータ</span></h1>
             </div>
-            <div class="ecoloop__content__top__production">
-                <p class="ecoloop__content__top__production__text"><label for="">制作時期</label>2019年4月〜</p>
-                <p class="ecoloop__content__top__production__text"><label for="">制作時間</label>40時間</p>
-                <p class="ecoloop__content__top__production__text"><label for="">制作</label>個人制作</p>
-                <p class="ecoloop__content__top__production__text"><label for="">担当箇所</label>すべて</p>
-                <p class="ecoloop__content__top__production__text"><label for="">使用言語</label>HTML、CSS</p>
-                <p class="ecoloop__content__top__production__text"><label for="">使用ソフト</label>Photoshop、Illustrator</p>
+            <div class="masureita__content__top__production">
+                <p class="masureita__content__top__production__text"><label for="">制作時期</label>2019年4月〜</p>
+                <p class="masureita__content__top__production__text"><label for="">制作時間</label>40時間</p>
+                <p class="masureita__content__top__production__text"><label for="">制作</label>個人制作</p>
+                <p class="masureita__content__top__production__text"><label for="">担当箇所</label>すべて</p>
+                <p class="masureita__content__top__production__text"><label for="">使用言語</label>HTML、CSS</p>
+                <p class="masureita__content__top__production__text"><label for="">使用ソフト</label>Photoshop、Illustrator</p>
             </div>
-            <div class="ecoloop__content__top__photo">
+            <div class="masureita__content__top__photo">
                 <img src="../../assets/img/Masureita.png" alt="">
             </div>
         </div>
-        <section class="ecoloop__content__backWarp">
-            <h2 class="ecoloop__content__backWarp__title"><span>制作背景</span></h2>
-            <div class="ecoloop__content__backWarp__concepttbox">
-                <div class="ecoloop__content__backWarp__concepttbox__theme">
+        <section class="masureita__content__backWarp">
+            <h2 class="masureita__content__backWarp__title"><span>制作背景</span></h2>
+            <div class="masureita__content__backWarp__concepttbox">
+                <div class="masureita__content__backWarp__concepttbox__theme">
                     <label for="">「テーマ」</label>
                     <p>「カフェ×筋肉」</p>
                 </div>
-                <div class="ecoloop__content__backWarp__concepttbox__theme">
+                <div class="masureita__content__backWarp__concepttbox__theme">
                     <label for="">「コンセプト」</label>
                     <p>「成長の手助け」</p>
                 </div>
-                <div class="ecoloop__content__backWarp__concepttbox__theme">
+                <div class="masureita__content__backWarp__concepttbox__theme">
                     <label for="">「キーワード」</label>
                     <p>「トレーニング後」「回復」「タンパク質」</p>
                 </div>
             </div>
-            <section class="ecoloop__content__backWarp__planning">
-                <section class="ecoloop__content__backWarp__planning__category overviewbox">
+            <section class="masureita__content__backWarp__planning">
+                <section class="masureita__content__backWarp__planning__category overviewbox">
                     <h3><span>概要</span></h3>
                     <p>
                         この作品は、学校入学後の最初の作品で、「カフェ×何か」をテーマに制作したWebサイトです。<br>
@@ -47,18 +47,16 @@
             </section>
         </section>
     </section>
-    <section class="ecoloop__access">
-        <ul class="ecoloop__access__navbox">
-            <li class="ecoloop__access__navbox__nav">
+    <section class="masureita__access">
+        <ul class="masureita__access__navbox">
+            <li class="masureita__access__navbox__nav">
                 <a href="http://click.ecc.ac.jp/ecc/tkida/portfolio/web/works/masureita/" target="_blank">
                     <label for="">Web</label>
                     <p>サイトをみる</p>
                 </a>
             </li>
         </ul>
-            <a href=""></a>
-            <a href=""></a>
-        
+           
     </section>
 <Footer></Footer>
   </div>
@@ -80,7 +78,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .ecoloop{
+  .masureita{
       padding: 80px 0 0 0 ;
       &__content{
           width: 78%;

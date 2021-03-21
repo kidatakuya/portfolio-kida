@@ -1,41 +1,41 @@
 <template>
-  <div id="" class="ecoloop">
+  <div id="" class="momory">
     <DetailsHeader></DetailsHeader>
-    <section class="ecoloop__content">
-        <div class="ecoloop__content__top">
-            <div class="ecoloop__content__top__titlebox titlebox">
-                <h1 class="ecoloop__content__top__titlebox_title title"><span>momory</span></h1>
+    <section class="momory__content">
+        <div class="momory__content__top">
+            <div class="momory__content__top__titlebox titlebox">
+                <h1 class="momory__content__top__titlebox_title title"><span>momory</span></h1>
             </div>
-            <div class="ecoloop__content__top__production">
-                <p class="ecoloop__content__top__production__text"><label for="">制作時期</label>2019年9月〜</p>
-                <p class="ecoloop__content__top__production__text"><label for="">制作時間</label>30時間</p>
-                <p class="ecoloop__content__top__production__text"><label for="">制作</label>グループ制作</p>
-                <p class="ecoloop__content__top__production__text"><label for="">担当箇所</label>フロントエンド、デザイン</p>
-                <p class="ecoloop__content__top__production__text"><label for="">使用言語</label>HTML、CSS、JavaScript、php</p>
-                <p class="ecoloop__content__top__production__text"><label for="">使用ソフト</label>Photoshop、Illustrator</p>
+            <div class="momory__content__top__production">
+                <p class="momory__content__top__production__text"><label for="">制作時期</label>2019年9月〜</p>
+                <p class="momory__content__top__production__text"><label for="">制作時間</label>30時間</p>
+                <p class="momory__content__top__production__text"><label for="">制作</label>グループ制作</p>
+                <p class="momory__content__top__production__text"><label for="">担当箇所</label>フロントエンド、デザイン</p>
+                <p class="momory__content__top__production__text"><label for="">使用言語</label>HTML、CSS、JavaScript、php</p>
+                <p class="momory__content__top__production__text"><label for="">使用ソフト</label>Photoshop、Illustrator</p>
             </div>
-            <div class="ecoloop__content__top__photo">
+            <div class="momory__content__top__photo">
                 <img src="../../assets/img/momory.png" alt="">
             </div>
         </div>
-        <section class="ecoloop__content__backWarp">
-            <h2 class="ecoloop__content__backWarp__title"><span>制作背景</span></h2>
-            <div class="ecoloop__content__backWarp__concepttbox">
-                <div class="ecoloop__content__backWarp__concepttbox__theme">
+        <section class="momory__content__backWarp">
+            <h2 class="momory__content__backWarp__title"><span>制作背景</span></h2>
+            <div class="momory__content__backWarp__concepttbox">
+                <div class="momory__content__backWarp__concepttbox__theme">
                     <label for="">「テーマ」</label>
                     <p>「みんなでもっと集まろう！」</p>
                 </div>
-                <div class="ecoloop__content__backWarp__concepttbox__theme">
+                <div class="momory__content__backWarp__concepttbox__theme">
                     <label for="">「コンセプト」</label>
                     <p>「気軽に多く旧友と」</p>
                 </div>
-                <div class="ecoloop__content__backWarp__concepttbox__theme">
+                <div class="momory__content__backWarp__concepttbox__theme">
                     <label for="">「キーワード」</label>
                     <p>「同窓会」「簡単」「開催」</p>
                 </div>
             </div>
-            <section class="ecoloop__content__backWarp__planning">
-                 <section class="ecoloop__content__backWarp__planning__category overviewbox">
+            <section class="momory__content__backWarp__planning">
+                 <section class="momory__content__backWarp__planning__category overviewbox">
                     <h3><span>- 概要 -</span></h3>
                     <p>
                         このサービスは同窓会を簡単い開催するための、同窓会支援サービスです。<br>
@@ -43,7 +43,7 @@
                         これらの問題を解決し、もっと気楽に集まれるようにサポートすることを目的としています。
                     </p>
                 </section>
-                <section class="ecoloop__content__backWarp__planning__category analysisbox">
+                <section class="momory__content__backWarp__planning__category analysisbox">
                     <h3><span>- 現状分析 -</span></h3>
                     <h4>同窓会などの参加経験</h4>
                     <div class="analysisbox__inner">
@@ -70,7 +70,7 @@
                         この3つが主な理由とされている。
                     </p>
                 </section>
-                <section class="ecoloop__content__backWarp__planning__category problembox">
+                <section class="momory__content__backWarp__planning__category problembox">
                     <h3><span>- 問題 -</span></h3>
                     <div>
                         <p>
@@ -84,7 +84,7 @@
                         </p>
                     </div>
                 </section>
-                <section class="ecoloop__content__backWarp__planning__category solutionbox">
+                <section class="momory__content__backWarp__planning__category solutionbox">
                     <h3><span>- 解決案 -</span></h3>
                     <h4>手軽に同級生と集まれるサービスを開発！</h4>
                     <p>
@@ -93,7 +93,7 @@
                         ・アンケート機能を使い、予定が合わせやすい！
                     </p>
                 </section>
-                 <section class="ecoloop__content__backWarp__planning__category targetbox">
+                 <section class="momory__content__backWarp__planning__category targetbox">
                     <h3><span>- ターゲット -</span></h3>
                     <h4>30代の社会人</h4>
                     <p class="targetbox__text">
@@ -101,7 +101,7 @@
                         ・同級生の連絡先がわからない人
                     </p>
                 </section>
-                <section class="ecoloop__content__backWarp__planning__category leadbox">
+                <section class="momory__content__backWarp__planning__category leadbox">
                     <h3><span>- 導線 -</span></h3>
                     <div>
                         <h4>各学校のホームページにサービスのバナー掲載</h4>
@@ -116,7 +116,7 @@
                         </p>
                     </div>
                 </section>
-                <section class="ecoloop__content__backWarp__planning__category purposebox">
+                <section class="momory__content__backWarp__planning__category purposebox">
                     <h3><span>- 目的 -</span></h3>
                     <p>
                         同級生同士が気軽に集まれるようにサポートする。出身学校を登録する事で簡単に友達を探せる事ができ楽しい時間を過ごせる
@@ -125,7 +125,7 @@
                         楽しい時間を過ごす事ができ、思い出に癒される。
                     </p>
                 </section>
-                <section class="ecoloop__content__backWarp__planning__category effectbox">
+                <section class="momory__content__backWarp__planning__category effectbox">
                     <h3><span>- 効果測定 -</span></h3>
                     <div>
                         <h4>ユーザー（登録者）</h4>
@@ -150,17 +150,15 @@
             </section>
         </section>
     </section>
-    <section class="ecoloop__access">
-        <ul class="ecoloop__access__navbox">
-            <li class="ecoloop__access__navbox__nav">
+    <section class="momory__access">
+        <ul class="momory__access__navbox">
+            <li class="momory__access__navbox__nav">
                 <a href="http://click.ecc.ac.jp/ecc/tkida/portfolio/web/works/Momory/login.php" target="_blank">
                     <label for="">Web</label>
                     <p>サイトをみる</p>
                 </a>
             </li>
         </ul>
-            <a href=""></a>
-            <a href=""></a>
         
     </section>
 <Footer></Footer>
@@ -180,7 +178,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .ecoloop{
+  .momory{
       padding: 80px 0 0 0 ;
       &__content{
           width: 78%;

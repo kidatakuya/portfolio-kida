@@ -1,55 +1,55 @@
 <template>
-  <div id="" class="ecoloop">
+  <div id="" class="nomimatti">
     <DetailsHeader></DetailsHeader>
-    <section class="ecoloop__content">
-        <div class="ecoloop__content__top">
-            <div class="ecoloop__content__top__titlebox titlebox">
-                <h1 class="ecoloop__content__top__titlebox_title title"><span>nomimatti</span></h1>
+    <section class="nomimatti__content">
+        <div class="nomimatti__content__top">
+            <div class="nomimatti__content__top__titlebox titlebox">
+                <h1 class="nomimatti__content__top__titlebox_title title"><span>nomimatti</span></h1>
             </div>
-            <div class="ecoloop__content__top__production">
-                <p class="ecoloop__content__top__production__text"><label for="">制作時期</label>2019年10月〜</p>
-                <p class="ecoloop__content__top__production__text"><label for="">制作時間</label>40時間</p>
-                <p class="ecoloop__content__top__production__text"><label for="">制作</label>個人制作</p>
-                <p class="ecoloop__content__top__production__text"><label for="">担当箇所</label>すべて</p>
-                <p class="ecoloop__content__top__production__text"><label for="">使用言語</label>HTML、CSS、JavaScript、SASS、PHP</p>
-                <p class="ecoloop__content__top__production__text"><label for="">使用ソフト</label>XD、Photoshop、Illustrator</p>
+            <div class="nomimatti__content__top__production">
+                <p class="nomimatti__content__top__production__text"><label for="">制作時期</label>2019年10月〜</p>
+                <p class="nomimatti__content__top__production__text"><label for="">制作時間</label>40時間</p>
+                <p class="nomimatti__content__top__production__text"><label for="">制作</label>個人制作</p>
+                <p class="nomimatti__content__top__production__text"><label for="">担当箇所</label>すべて</p>
+                <p class="nomimatti__content__top__production__text"><label for="">使用言語</label>HTML、CSS、JavaScript、SASS、PHP</p>
+                <p class="nomimatti__content__top__production__text"><label for="">使用ソフト</label>XD、Photoshop、Illustrator</p>
             </div>
-            <div class="ecoloop__content__top__photo">
+            <div class="nomimatti__content__top__photo">
                 <img src="../../assets/img/nomimatti.png" alt="">
             </div>
         </div>
-        <section class="ecoloop__content__backWarp">
-            <h2 class="ecoloop__content__backWarp__title"><span>制作背景</span></h2>
-            <div class="ecoloop__content__backWarp__concepttbox">
-                <div class="ecoloop__content__backWarp__concepttbox__theme">
+        <section class="nomimatti__content__backWarp">
+            <h2 class="nomimatti__content__backWarp__title"><span>制作背景</span></h2>
+            <div class="nomimatti__content__backWarp__concepttbox">
+                <div class="nomimatti__content__backWarp__concepttbox__theme">
                     <label for="">「テーマ」</label>
                     <p>「飲み仲間探し」</p>
                 </div>
-                <div class="ecoloop__content__backWarp__concepttbox__theme">
+                <div class="nomimatti__content__backWarp__concepttbox__theme">
                     <label for="">「コンセプト」</label>
                     <p>「飲み仲間探し」</p>
                 </div>
-                <div class="ecoloop__content__backWarp__concepttbox__theme">
+                <div class="nomimatti__content__backWarp__concepttbox__theme">
                     <label for="">「キーワード」</label>
                     <p>「刺しのみ」「誰でも」「マッチング」</p>
                 </div>
             </div>
-            <section class="ecoloop__content__backWarp__planning">
-                <section class="ecoloop__content__backWarp__planning__category overviewbox">
+            <section class="nomimatti__content__backWarp__planning">
+                <section class="nomimatti__content__backWarp__planning__category overviewbox">
                     <h3><span>- 概要 -</span></h3>
                     <p>
                         このサービスは飲みに行くのが好きで、飲みに行きたいけど予定が合わない。上京したばかりで飲みに行く友達が近くにいない。そんな人同士を引き合わせるマッチングアプリです。
                     </p>
                 </section>
                 
-                    <section class="ecoloop__content__backWarp__planning__category problembox">
+                    <section class="nomimatti__content__backWarp__planning__category problembox">
                         <h3><span>- 現状問題 -</span></h3>
                         <p>
                             誰かと飲みに行きたいけど、知人と予定が合わない。<br>
                             上京して、飲みに行く知人がいない。
                         </p>
                     </section>
-                    <section class="ecoloop__content__backWarp__planning__category problembox">
+                    <section class="nomimatti__content__backWarp__planning__category problembox">
                         <h3><span>- 解決案 -</span></h3>
                         <p>
                             複数人だと話しにくい人がいる可能性があるので、刺しのみ用のマッチングサービスにする。
@@ -57,13 +57,13 @@
                     </section>
                     
                 
-                    <section class="ecoloop__content__backWarp__planning__category purposebox">
+                    <section class="nomimatti__content__backWarp__planning__category purposebox">
                         <h3><span>- 目的 -</span></h3>
                         <p>
                             刺し飲み仲間を探す。
                         </p>
                     </section>
-                    <section class="ecoloop__content__backWarp__planning__category purposebox">
+                    <section class="nomimatti__content__backWarp__planning__category purposebox">
                         <h3><span>- メリット -</span></h3>
                         <h4>ユーザー</h4>
                         <p>
@@ -80,7 +80,7 @@
                     </section>
                     
                
-                    <section class="ecoloop__content__backWarp__planning__category profitbox">
+                    <section class="nomimatti__content__backWarp__planning__category profitbox">
                         <h3><span>- 利益 -</span></h3>
                         <p>
                             ・サービス使用で得た情報を提供し、情報料をもらう。
@@ -88,7 +88,7 @@
                             ・飲食店と提携して紹介料をもらう。
                         </p>
                     </section>
-                    <section class="ecoloop__content__backWarp__planning__category profitbox">
+                    <section class="nomimatti__content__backWarp__planning__category profitbox">
                         <h3><span>- 導線 -</span></h3>
                         <p>
                             ・提携している飲食店のインスタグラム、ツイッター、などのSNS で告知してもらう。<br>
@@ -98,7 +98,7 @@
                     
                     
                 
-                <section class="ecoloop__content__backWarp__planning__category functionbox">
+                <section class="nomimatti__content__backWarp__planning__category functionbox">
                     <h3><span>- 機能 -</span></h3>
                     <p>
                         ・アカウント登録<br>
@@ -118,15 +118,22 @@
             </section>
         </section>
     </section>
-    <section class="ecoloop__access">
-        <ul class="ecoloop__access__navbox">
+    <section class="nomimatti__access">
+        <ul class="nomimatti__access__navbox">
             
-            <li class="ecoloop__access__navbox__nav">
+            <li class="nomimatti__access__navbox__nav">
                 <a href="http://click.ecc.ac.jp/ecc/tkida/portfolio/web/works/Nomimatti/" target="_blank">
                     <label for="">Mobile</label>
                     <p>サイトを見る</p>
                 </a>
             </li>
+            <li class="nomimatti__access__navbox__nav">
+                <a href="https://github.com/kidatakuya/Nomimatti" target="_blank">
+                    <label for="">GitHub</label>
+                    <p>コード見る</p>
+                </a>
+            </li>
+            
         </ul>
             <a href=""></a>
             <a href=""></a>
@@ -149,7 +156,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .ecoloop{
+  .nomimatti{
       padding: 80px 0 0 0 ;
       &__content{
           width: 78%;

@@ -125,6 +125,12 @@
                     <p>サイトを見る</p>
                 </a>
             </li>
+            <li class="botitabi__access__navbox__nav">
+                <a href="https://github.com/kidatakuya/botitabi" target="_blank">
+                    <label for="">GitHub</label>
+                    <p>コード見る</p>
+                </a>
+            </li>
         </ul>
     </section>
 <Footer></Footer>

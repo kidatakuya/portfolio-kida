@@ -10,6 +10,7 @@
       </div>
       <div class="training__warp__animationStady">
         <h3 class="training__warp__stady__title">アニメーション勉強</h3>
+        <a href="https://github.com/kidatakuya/skill-training" target="_blank">https://github.com/kidatakuya/skill-training</a>
        <ul class="training__warp__animationStady__box">
          <!-- item01 -->
          <li v-for="trainingItem in trainingItems" :key="trainingItem.img" class="training__warp__animationStady__box__item">
@@ -152,21 +153,23 @@ export default {
     &__warp{
       width: 78%;
       margin: 40px auto;
+      text-align: center;
+      a{
+          font-size: 18px;
+          color: #a0a0a0;
+          text-align: center;
+          transition: 0.3s;
+          &:hover{
+            color: #3c3c3c;
+          }
+        }
       &__stady{
         text-align: center;
         margin-bottom: 24px;
          &__title{
           text-align: center;
           font-size: 24px;
-        }
-        a{
-          font-size: 18px;
-          color: #a0a0a0;
-          transition: 0.3s;
-          &:hover{
-            color: #3c3c3c;
-          }
-        }
+         }
       }
      
       &__animationStady{
