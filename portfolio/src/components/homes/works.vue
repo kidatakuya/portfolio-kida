@@ -2,7 +2,7 @@
   <section id="" class="works conteiner">
     <div class="works__titlebox titlebox">
        <h2 class="works__titlebox__title title">作品</h2>
-       <p class="works__titlebox__subTitle subtitle">〜 是非、見てください 〜</p>
+       <p class="works__titlebox__subTitle subtitle">〜 制作物は時系列になっています。 〜</p>
     </div>
     <nav class="works__navbox">
       <ul class="works__navbox__inner">

@@ -136,6 +136,24 @@ export default {
           text:"JavaScriptで要素１つ１つ動かし制御するスライドショー",
           link:"slide03"
         },
+         {
+          title:"カード配りアニメーション",
+          img:require("../../assets/img/cardgame.png"),
+          text:"JavaScriptを使ったカード配り（モバイルサイズでご覧ください）",
+          link:"card-game"
+        },
+        {
+          title:"threejs使ってみた01",
+          img:require("../../assets/img/threejs01.png"),
+          text:"threejsで表示",
+          link:"threejs-test01"
+        },
+        {
+          title:"threejs使ってみた02",
+          img:require("../../assets/img/threejs02.png"),
+          text:"threejsで表示(Drag and dropでカメラ動かす)",
+          link:"threejs-test02"
+        },
         
       ]
     }
