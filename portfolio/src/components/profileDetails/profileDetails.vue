@@ -48,7 +48,7 @@
               <span class="profileDetails__content__textWarp__title__line"></span>
               <span class="profileDetails__content__textWarp__title__text">会社を辞め、専門学校へ行く事を決める。</span>
               </h3>
-            <p class="profileDetails__content__textWarp__mainText">2年ほど働いた頃、「これが自分のしたかった仕事なのか」と、疑問に思い始め、転職を考えるようになる。仕事をしつつ、転職活動を始めたが、自然の現職と同じ業種ばかりに応募していることに気づき、「これでは、問題の解決になっていない」と考え、どうしようかと、悩んでいた所、その時、転職活動に使っていたWEBサイトに興味を持ち、WEBデザイナーという職業目指す。だが、自分はパソコンに苦手意識を持っており、いきなりWEBデザイナーを目指すにはハードルが高かった。そこで、転職ではなく専門学校へ行くことを決めた。両親に反対されたがWEBデザイナーになりたいという、強い意志を示し、専門学校へ入ることを許してもらう。（人生の分岐点）</p>
+            <p class="profileDetails__content__textWarp__mainText">2年ほど働いた頃、デジタルでつくるモノづくりへの興味や魅力が膨らみ、転職を考え始めた。その時、転職活動中に使っていたWEBサイトに興味を持ち、インターネット業界の様々な表現や可能性に満ちた世界にとても魅力を感じ、専門学校へ行く決意をし、ECCコンピュータ専門学校のWEBデザインコースへ入学した。（人生の分岐点）</p>
         </div>
         <div class="profileDetails__content__textWarp">
             <h3 class="profileDetails__content__textWarp__title">
@@ -56,7 +56,7 @@
               <span class="profileDetails__content__textWarp__title__line"></span>
               <span class="profileDetails__content__textWarp__title__text">ECCコンピュータ専門学校へ入学。</span>
               </h3>
-            <p class="profileDetails__content__textWarp__mainText">専門学校では企画、デザイン、プログラミングの勉強を中心に行っており、自分はタイピングが遅かった事もあり、プログラミングに苦手意識を持っていたので、デザイナーを目指そうと思っていた。プログラミングの面白さに気づき、エンジニアを目指すようになる。（将来的には、デザインもプログラミングも出来るようになりたい。）</p>
+            <p class="profileDetails__content__textWarp__mainText">専門学校では企画、デザイン、プログラミングの勉強を中心に行っており、自分はタイピングが遅かった事もあり、プログラミングに苦手意識を持っていたが、プログラミングの面白さに気づき、エンジニアを目指すようになる。（将来的には、デザインもプログラミングも出来るようになりたい。）</p>
         </div>
     </div>
   </div>
