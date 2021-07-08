@@ -14,7 +14,7 @@
             <h3 class="profileDetails__content__textWarp__title">
               <span class="profileDetails__content__textWarp__title__year">2004年</span>
               <span class="profileDetails__content__textWarp__title__line"></span>
-              <span class="profileDetails__content__textWarp__title__text">奈良へ引っ越し。小学校入学。サッカーを始める</span>
+              <span class="profileDetails__content__textWarp__title__text">奈良へ引っ越し。小学校入学。サッカーを始める。</span>
               </h3>
             <p class="profileDetails__content__textWarp__mainText">兵庫にいる時、サッカーと水泳を習っており、サッカーが好きだったため奈良でもサッカーを習い始めた。</p>
         </div>
@@ -24,7 +24,7 @@
               <span class="profileDetails__content__textWarp__title__line"></span>
               <span class="profileDetails__content__textWarp__title__text">小学校卒業、中学校入学。サッカー部に入る。</span>
               </h3>
-            <p class="profileDetails__content__textWarp__mainText">小学校の時に入っていたサッカースクールは小学校までで、中学でサッカー部に入り、中学の学生時代はサッカーにほとんどの時間を費やした。夏は合宿で車で20分もかかる山道を走って登り、冬は雪で氷水のようになっているグラウンドで走っていた。中学時代を振り返ると、修学旅行や体育大会の事より部活で仲間と走り回ったことを思い出す。（消去法で始めたサッカーが好きになっていた）</p>
+            <p class="profileDetails__content__textWarp__mainText">小学校の時に入っていたサッカースクールは小学校までで、中学でサッカー部に入り、中学の学生時代はサッカーにほとんどの時間を費やした。夏は合宿で車で20分もかかる山道を走って登り、冬は雪で氷水のようになっているグラウンドで走っていた。中学時代を振り返ると、修学旅行や体育大会の事より部活で仲間と走り回ったことを思い出す。</p>
         </div>
         <div class="profileDetails__content__textWarp">
             <h3 class="profileDetails__content__textWarp__title">
