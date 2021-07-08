@@ -154,6 +154,12 @@ export default {
           text:"threejsで表示(Drag and dropでカメラ動かす)",
           link:"threejs-test02"
         },
+        {
+          title:"randomやライブラリを使う",
+          img:require("../../assets/img/Personal-function-production.png"),
+          text:"randomを使って人を選ぶ機能とライブラリを試してみたもの",
+          link:"Personal-function-production"
+        },
         
       ]
     }

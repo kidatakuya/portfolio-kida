@@ -8,15 +8,15 @@
               <span class="profileDetails__content__textWarp__title__line"></span>
               <span class="profileDetails__content__textWarp__title__text">奈良県にて誕生。</span>
               </h3>
-            <p class="profileDetails__content__textWarp__mainText">母の実家で生まれて住所は兵庫県</p>
+            <p class="profileDetails__content__textWarp__mainText">母の実家で生まれて住所は兵庫県。小学校に入学するまで兵庫に住んでいた。</p>
         </div>
         <div class="profileDetails__content__textWarp">
             <h3 class="profileDetails__content__textWarp__title">
               <span class="profileDetails__content__textWarp__title__year">2004年</span>
               <span class="profileDetails__content__textWarp__title__line"></span>
-              <span class="profileDetails__content__textWarp__title__text">小学校入学。サッカーを始める</span>
+              <span class="profileDetails__content__textWarp__title__text">奈良へ引っ越し。小学校入学。サッカーを始める</span>
               </h3>
-            <p class="profileDetails__content__textWarp__mainText">サッカーか水泳のどちらか習えと言われ、サッカーを選んだ。</p>
+            <p class="profileDetails__content__textWarp__mainText">兵庫にいる時、サッカーと水泳を習っており、サッカーが好きだったため奈良でもサッカーを習い始めた。</p>
         </div>
         <div class="profileDetails__content__textWarp">
             <h3 class="profileDetails__content__textWarp__title">

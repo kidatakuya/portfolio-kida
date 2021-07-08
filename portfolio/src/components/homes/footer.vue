@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <footer class="footer">
-      <p class="footer__text">&copy; 2020 ECC-Web-Portfolio-kida</p>
+      <p class="footer__text">&copy; 2021 ECC-Web-Portfolio-kida</p>
     </footer>
   </div>
 </template>

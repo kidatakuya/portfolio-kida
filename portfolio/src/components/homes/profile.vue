@@ -26,7 +26,7 @@
         </div>
         <div class="profile__textbox__innerwarp__careerbox__skillbox">
           <p class="profile__textbox__innerwarp__careerbox__skillbox__text"><label for="">使える言語</label>HTML、CSS、JavaScript、Vuejs</p>
-          <p class="profile__textbox__innerwarp__careerbox__skillbox__text"><label for="">勉強中</label>JavaScript、React、PHP</p>
+          <p class="profile__textbox__innerwarp__careerbox__skillbox__text"><label for="">勉強中</label>React、PHP、Python、Flutter</p>
         </div>
       </div>
       <div class="profile__textbox__photo">
